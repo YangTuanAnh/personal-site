@@ -79,7 +79,7 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2021</span>
-          <span>Started Bachelor's degree in Computer Science at the VNU-HCM University of Science, Advanced Program in Computer Science</span>
+          <span>Started Bachelor&apos;s degree in Computer Science at the VNU-HCM University of Science, Advanced Program in Computer Science</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2022</span>

@@ -104,7 +104,7 @@ const Works = () =>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/hcmuwus" title="EverLast" thumbnail={thumbEverLast}>
-                        A webapp that aids the cronically ill with end-of-life logistics and acts as a digital memorial for loved ones to add onto (conceptual), an award-winning submission to GDSC-IU's IT Hackathon 2022<br />
+                        A webapp that aids the cronically ill with end-of-life logistics and acts as a digital memorial for loved ones to add onto (conceptual), an award-winning submission to GDSC-IU&apos;s IT Hackathon 2022<br />
                         <span><b className="text-pink-600">Tech stack:</b> <em>Javascript, React, TailwindCSS</em></span>
                     </GridItem>
                 </Section>
@@ -134,7 +134,7 @@ const Works = () =>
                 <Image src={thumbGraphics} alt="Graphic Design" className="mx-auto md:w-1/2 rounded-lg hover:scale-110 transition duration-150 hover:shadow-lg dark:shadow-highlight/25 mb-6" />
                 <h3 className="hover:text-highlight transition duration-150 text-center">Collage</h3>
                 <p className="text-center">
-                    Some posts I've designed for organizations and personal projects.<br/>
+                    Some posts I&apos;ve designed for organizations and personal projects.<br/>
                     <span><b className="text-pink-600">Tools:</b> <em>Adobe Illustrator, Figma, Blender</em></span>
                 </p>
             </Section>

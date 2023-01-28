@@ -12,14 +12,14 @@ const News = () =>
                     news.map(item =>
                     {
                         return (
-                            <div className="md:flex">
+                            <div className="md:flex" key={item.date}>
                                 <span className="w-40 font-bold">{item.date}</span>
                                 <div className="w-full">
                                     {
                                         item.events.map(event =>
                                         {
                                             return (
-                                                <p className="mb-1.5 text-justify">{event}</p>
+                                                <p className="mb-1.5 text-justify" key={event}>{event}</p>
                                             )
                                         })
                                     }

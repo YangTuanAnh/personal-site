@@ -20,7 +20,7 @@ const Posts = ({ ...props }) =>
                     props.posts.map((post: any) =>
                     {
                         return (
-                            <BlogCard post={post} />
+                            <BlogCard post={post} key={post.slug} />
                         )
                     })
                 }
