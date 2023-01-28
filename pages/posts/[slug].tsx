@@ -80,7 +80,7 @@ const PostPage = ({ ...props }) =>
                     ul: (props) => <ul className="list-disc list-inside indent-6 "{...props} />,
                     ol: (props) => <ol className="list-decimal list-inside indent-6"{...props} />,
                     blockquote: (props) => <blockquote className="dark:bg-neutral-700 bg-neutral-200 p-3 rounded-lg mb-3 italic" {...props} />,
-                    p: (props) => <p className="mb-3 indent-6 text-justify" {...props} />,
+                    p: (props) => <p className="mb-3 indent-6" {...props} />,
                     img: (props) => <img className="mx-auto p-6" {...props} />,
                     hr: (props) => <hr className="border border-black dark:border-white opacity-50 m-6" {...props}/>
                 }} />
