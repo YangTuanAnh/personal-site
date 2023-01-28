@@ -32,7 +32,7 @@ const Posts = ({ ...props }) =>
 
 export const getStaticProps: GetStaticProps = async () =>
 {
-    const POSTS_PATH = path.join(process.cwd(), 'data', 'posts')
+    const POSTS_PATH = path.join('data', 'posts')
     const postFilePaths = fs.readdirSync(POSTS_PATH).filter((path) => /\.mdx?$/.test(path))
 
     const posts = postFilePaths.map((filePath) =>

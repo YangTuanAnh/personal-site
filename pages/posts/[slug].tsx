@@ -17,7 +17,7 @@ interface IParams extends ParsedUrlQuery
 
 export const getStaticPaths: GetStaticPaths = async () =>
 {
-    const POSTS_PATH = `${process.cwd()}\\data\\posts`
+    const POSTS_PATH = `data\\posts`
     const files = fs.readdirSync(POSTS_PATH).filter((path) => /\.mdx?$/.test(path))
 
     const paths = files.map(filename => ({
@@ -70,9 +70,11 @@ const PostPage = ({ ...props }) =>
                 <h1 className="text-4xl mb-6">{props.data.title}</h1>
                 <div className="flex justify-between">
                     <span>{props.data.publishedAt}</span>
-                    <span>{views.toLocaleString() + ` views`}</span>
+                    <span>{`${Number(views) > 1 ? views.toLocaleString() : '–––'} views`}</span>
                 </div>
-                <img src={props.data.thumbnail} alt={props.data.title} className="object-cover w-full p-6 aspect-video" />
+                <Image src={props.data.thumbnail} alt={props.data.title} width={2000} height={2000} className="object-cover w-full p-6 aspect-video" />
+                
+                
                 <MDXRemote {...props.mdxSource} components={{
                     a: (props) => <a className="text-pink-400 hover:underline underline-offset-4 dark:brightness-100 brightness-90"{...props} />,
                     ul: (props) => <ul className="list-disc list-inside indent-6 "{...props} />,
