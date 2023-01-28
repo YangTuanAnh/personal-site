@@ -110,7 +110,7 @@ const Works = () =>
                 </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://youtu.be/hyYEWD2tYzg" title="SBShuttle" thumbnail={thumbSBShuttle}>
-                        A package-delivery service based on Tiki’s Transportation services, top-30 semi-finalist submission for Tiki Hacking Trail 2022
+                        A package-delivery service based on Tiki’s Transportation services, top-30 semi-finalist submission for Tiki Hacking Trail 2022<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>TiniApp, TiniStudio</em></span>
                     </GridItem>
                 </Section>
