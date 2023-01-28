@@ -1,6 +1,6 @@
-const title = "Yang Tuan Anh - Computer Scientist, Student, Design Enthusiast.";
+const title = "Yang Tuan Anh - Computer Scientist, Student, Design Enthusiast";
 const description =
-  "Personal website for Yang Tuan Anh, a Computer Science sophomore at the VNU-HCM University of Science.";
+  "Personal website for Yang Tuan Anh, where I present my ideas, projects and personal updates. Acts as a portfolio.";
 
 const SEO = {
   title,
