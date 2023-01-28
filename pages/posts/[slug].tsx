@@ -17,7 +17,7 @@ interface IParams extends ParsedUrlQuery
 
 export const getStaticPaths: GetStaticPaths = async () =>
 {
-    const POSTS_PATH = `data\\posts`
+    const POSTS_PATH = path.join(process.cwd(), 'data', 'posts')
     const files = fs.readdirSync(POSTS_PATH).filter((path) => /\.mdx?$/.test(path))
 
     const paths = files.map(filename => ({
@@ -36,7 +36,7 @@ export const getStaticProps: GetStaticProps = async (context) =>
 {
     const POSTS_PATH = path.join(process.cwd(), 'data', 'posts')
     const { slug } = context.params as IParams
-    const source = fs.readFileSync(path.join(POSTS_PATH, slug + '.mdx'))
+    const source = fs.readFileSync(path.join(POSTS_PATH, slug + '.mdx'), 'utf8')
 
     const { content, data } = matter(source)
     const mdxSource = await serialize(content)

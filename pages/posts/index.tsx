@@ -32,12 +32,12 @@ const Posts = ({ ...props }) =>
 
 export const getStaticProps: GetStaticProps = async () =>
 {
-    const POSTS_PATH = path.join('data', 'posts')
+    const POSTS_PATH = path.join(process.cwd(), 'data', 'posts')
     const postFilePaths = fs.readdirSync(POSTS_PATH).filter((path) => /\.mdx?$/.test(path))
 
     const posts = postFilePaths.map((filePath) =>
     {
-        const source = fs.readFileSync(path.join(POSTS_PATH, filePath))
+        const source = fs.readFileSync(path.join(POSTS_PATH, filePath), 'utf8')
         const { content, data } = matter(source)
         const slug = filePath.split('.')[0]
 
