@@ -40,12 +40,12 @@ export default function Home()
           Hello there! I grew up in Ho Chi Minh City, Vietnam, and currently a sophomore at the&nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;.
           I am now looking for internships and research opportunities in the fields of Software Engineering, Machine Learning and Project Management that will allow me to apply my programming, project management, and creative expertise to the professional sphere. I have a background in Computer Science and have managed student-run organizations.
         </p>
-        <p className="text-justify indent-4 break-words">
+        <p className="indent-4 break-words">
           Currently, I am working as a Software Engineer for&nbsp; 
           <StyledLink href="https://lean.social/">LEAN Social</StyledLink>, an edutech startup and a Teaching Assistant for&nbsp;
           <StyledLink href="https://www.steamforvietnam.org/">STEAM For Vietnam</StyledLink>.
         </p>
-        <div className="flex justify-center m-6 gap-6">
+        <div className="flex justify-center my-6 gap-4">
           <Link href="/works">
             <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 bg-amber-400 hover:brightness-110 text-neutral-900 inline-flex px-4 py-2 rounded-lg items-center">
               My portfolio&nbsp;
@@ -95,7 +95,7 @@ export default function Home()
         <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
           I ♥
         </h3>
-        <p className="text-justify indent-4 break-words">
+        <p className="indent-4 break-words">
           Software Engineering, Machine Learning, Competitive Programming, Mathematics, Art, Music, Languages
         </p>
       </Section>

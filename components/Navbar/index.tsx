@@ -16,7 +16,7 @@ const HamburgerButton = ({ path }: { path: string }) =>
 {
     const [pressed, setPressed] = useState(false);
     return (
-        <button className=" md:hidden rounded-lg outline outline-neutral-400 outline-2 w-10 h-10 flex justify-center items-center
+        <button className=" md:hidden rounded-lg outline outline-neutral-400 outline-2 w-12 h-12 flex justify-center items-center
                                         hover:bg-neutral-100 hover:outline-4 hover:text-neutral-900"
             onClick={() => setPressed(!pressed)}
 
@@ -82,11 +82,12 @@ const Navbar = ({ path }: { path: string }) =>
                         </LinkItem>
                     </li>
                 </ul>
-                <div className="flex align-right inline-block md:none gap-3">
+                
+            </ul>
+            <div className="flex align-right inline-block md:none gap-3 p-4 absolute top-0 right-0">
                     <DarkMode/>
                     <HamburgerButton path={path} />
                 </div>
-            </ul>
         </nav>
     )
 }
