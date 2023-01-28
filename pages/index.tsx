@@ -54,7 +54,7 @@ export default function Home()
               </svg>
             </button>
           </Link>
-          <a href="/YangTuanAnh_SWE_Resume2023.pdf" download>
+          <a href="YangTuanAnh_SWEResume_2023.pdf" download>
             <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 bg-amber-400 hover:brightness-110 text-neutral-900 inline-flex px-4 py-2 rounded-lg items-center">
               My resume&nbsp;
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
