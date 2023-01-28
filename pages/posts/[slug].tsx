@@ -34,7 +34,7 @@ export const getStaticPaths: GetStaticPaths = async () =>
 
 export const getStaticProps: GetStaticProps = async (context) =>
 {
-    const POSTS_PATH = `${process.cwd()}\\data\\posts`
+    const POSTS_PATH = path.join(process.cwd(), 'data', 'posts')
     const { slug } = context.params as IParams
     const source = fs.readFileSync(path.join(POSTS_PATH, slug + '.mdx'))
 
