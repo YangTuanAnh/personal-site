@@ -6,7 +6,7 @@ import DarkMode from '../DarkMode'
 const LinkItem = ({ href, path, children }: { href: string, path: string, children: any }) =>
 {
     return (
-        <Link href={href} className={`${href == path ? 'text-white bg-highlight' : ''} p-2 hover:underline underline-offset-4`}>
+        <Link href={href} className={`${href == path ? 'text-white bg-pink-600' : ''} p-2 hover:underline underline-offset-4`}>
             {children}
         </Link>
     )
@@ -29,17 +29,17 @@ const HamburgerButton = ({ path }: { path: string }) =>
                 onBlur={() => setPressed(false)}
             >
                 <ul>
-                    <li className={`${"/works" == path ? 'bg-highlight' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900 rounded-t-lg`}>
+                    <li className={`${"/works" == path ? 'bg-pink-600' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900 rounded-t-lg`}>
                         <LinkItem href="/works" path={path}>
                             Works
                         </LinkItem>
                     </li>
-                    <li className={`${"/posts" == path ? 'bg-highlight' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900`}>
+                    <li className={`${"/posts" == path ? 'bg-pink-600' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900`}>
                         <LinkItem href="/posts" path={path}>
                             Posts
                         </LinkItem>
                     </li>
-                    <li className={`${"/news" == path ? 'bg-highlight' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900 rounded-b-lg`}>
+                    <li className={`${"/news" == path ? 'bg-pink-600' : 'hover:bg-neutral-300'} p-2  hover:underline underline-offset-4 text-neutral-900 rounded-b-lg`}>
                         <LinkItem href="/news" path={path}>
                             News
                         </LinkItem>
