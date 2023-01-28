@@ -1,4 +1,4 @@
-const title = "Yang Tuan Anh - Computer Scientist, Student, Design Enthusiast";
+const title = "Yang Tuan Anh - Computer Science Student";
 const description =
   "Personal website for Yang Tuan Anh, where I present my ideas, projects and personal updates. Acts as a portfolio.";
 
