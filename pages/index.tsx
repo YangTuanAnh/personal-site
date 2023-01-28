@@ -24,7 +24,7 @@ export default function Home()
             Yang Tuan Anh
           </h2>
           <p>
-            APCS21 @ VNU-HCM University of Science
+            APCS21 @ VNUHCM - University of Science
           </p>
         </div>
         <div className="shrink-0 mt-8 md:mt-0 md:ml-6 text-center">
@@ -79,7 +79,7 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2021</span>
-          <span>Started Bachelor&apos;s degree in Computer Science at the VNU-HCM University of Science, Advanced Program in Computer Science</span>
+          <span>Started Bachelor&apos;s degree in Computer Science at the VNUHCM - University of Science, Advanced Program in Computer Science</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2022</span>
