@@ -12,7 +12,7 @@ const Main = ({children, router}: {children:any, router:any}) => {
             </Head>
 
             <Navbar path={router.asPath}/>
-            <div className="p-20 md:px-80 md:py-20  h-full">
+            <div className="p-10 pt-24 lg:px-80 lg:py-20  h-full">
                 {children}
                 <Footer/>
             </div>

@@ -36,14 +36,14 @@ export default function Home()
         <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
           Works
         </h3>
-        <p className="text-justify indent-4 break-words">
-          Hello there! I grew up in Saigon, Vietnam and I am part of the&nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNU-HCM University of Science</StyledLink>&nbsp;as a sophomore.
+        <p className="indent-4 break-words">
+          Hello there! I grew up in Ho Chi Minh City, Vietnam, and currently a sophomore at the&nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;.
           I am now looking for internships and research opportunities in the fields of Software Engineering, Machine Learning and Project Management that will allow me to apply my programming, project management, and creative expertise to the professional sphere. I have a background in Computer Science and have managed student-run organizations.
         </p>
         <p className="text-justify indent-4 break-words">
-          Currently, I am working as a Software Engineer for an edutech startup called&nbsp; 
-          <StyledLink href="https://lean.social/">LEAN Social</StyledLink>
-          &nbsp;and a Teaching Assistant for <StyledLink href="https://www.steamforvietnam.org/">STEAM For Vietnam</StyledLink>.
+          Currently, I am working as a Software Engineer for&nbsp; 
+          <StyledLink href="https://lean.social/">LEAN Social</StyledLink>, an edutech startup and a Teaching Assistant for&nbsp;
+          <StyledLink href="https://www.steamforvietnam.org/">STEAM For Vietnam</StyledLink>.
         </p>
         <div className="flex justify-center m-6 gap-6">
           <Link href="/works">
@@ -54,14 +54,14 @@ export default function Home()
               </svg>
             </button>
           </Link>
-          <a href="YangTuanAnh_SWEResume_2023.pdf" download>
+          <Link href="/resume">
             <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 bg-amber-400 hover:brightness-110 text-neutral-900 inline-flex px-4 py-2 rounded-lg items-center">
               My resume&nbsp;
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
       </Section>
 
@@ -102,7 +102,7 @@ export default function Home()
 
       <Section delay={0.8}>
         <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-          On the web
+          Reach me through
         </h3>
         <SocialMediaLink href="https://github.com/YangTuanAnh">
           <AiFillGithub className="mr-2"/> YangTuanAnh

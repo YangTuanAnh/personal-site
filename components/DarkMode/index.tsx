@@ -17,7 +17,7 @@ const DarkMode = () =>
                 exit={{x: -20, opacity: 0}}
                 transition={{duration: 0.2}}
             >
-                <button className={`${theme === 'light' ? 'bg-amber-400 hover:bg-amber-500' : 'bg-violet-500 hover:bg-violet-400'} inline-block w-12 h-12 rounded-lg flex justify-center items-center hover:outline-4`}
+                <button className={`${theme === 'light' ? 'bg-amber-400 hover:bg-amber-500' : 'bg-violet-500 hover:bg-violet-400'} inline-block w-10 h-10 rounded-lg flex justify-center items-center hover:outline-4`}
                     onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                     aria-label="Toggle Dark Mode"
                 >

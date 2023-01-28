@@ -19,7 +19,7 @@ const News = () =>
                                         item.events.map(event =>
                                         {
                                             return (
-                                                <p className="mb-1.5 text-justify" key={event}>{event}</p>
+                                                <p className="mb-1.5" key={event}>{event}</p>
                                             )
                                         })
                                     }
