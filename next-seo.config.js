@@ -9,7 +9,7 @@ const SEO = {
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://www.yantuananh.dev",
+    url: "https://www.yangtuananh.dev",
     title,
     description,
     images: [
