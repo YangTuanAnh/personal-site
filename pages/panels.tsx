@@ -25,8 +25,10 @@ const Panels = () => {
             <div className="flex justify-between gap-2 transition">
             {panels.map((panel, index) =>{
                 return (
-                    <button className={`${panel.color} ${index === selected && 'flex-grow'} relative w-10 h-80 rounded-3xl min-w-fit transition transition-all ease-in-out duration-500`}
-                        onClick={()=> setSelected(index)}>
+                    <button 
+                        className={`${panel.color} ${index === selected && 'flex-grow'} relative w-10 h-80 rounded-3xl min-w-fit transition transition-all ease-in-out duration-500`}
+                        onClick={()=> setSelected(index)}
+                        key={panel.title}>
                         <span className={`${index !== selected && 'hidden'} absolute left-4 bottom-4`}>{panel.title}</span>
                     </button>
                 )
