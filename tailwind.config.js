@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         "highlight": "#5eead4", //teal-300
       },
+      transitionProperty: {
+        'width': 'width'
+    },
     },
   },
   darkMode: 'class',
