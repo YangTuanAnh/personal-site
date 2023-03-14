@@ -3,6 +3,7 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbThorch from "../public/images/works/projects/mythorch.webp"
 import thumbTrassify from "../public/images/works/projects/trassify.png"
 import thumbCrashCourse from "../public/images/works/projects/crashcourse.png"
 import thumbBanner from "../public/images/banner.png"
@@ -30,6 +31,12 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://lablab.ai/event/openai-hackathon/hcmuwus/mythorch-revolutionary-documents-interaction" title="MyThorch" thumbnail={thumbThorch}>
+                        A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user's needs and preferences.<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>React, NodeJS, Flask, Redis, GPT-3</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/CS202_Project" title="CS202 Crash Course" thumbnail={thumbCrashCourse}>
                         Inspired by Crossy Road, a 3D video game that lets players avoid obstacles such as cars and dinosaurs, on their way across the streets. Some special features include various lane types, traffic lamps and endless gameplay.<br />

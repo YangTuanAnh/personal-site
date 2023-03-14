@@ -16,11 +16,11 @@ const BlogCard = ({ post }: { post: any }) =>
     return (
         <div className="my-2">
             <Link href={"/posts/" + post.slug} className="md:h-40 h-20 min-h-full flex" rel="noopener">
-                <div className="w-80 p-2 hidden md:block ">
+                <div className="aspect-square p-2 hidden md:block ">
                     <img src={post.data.thumbnail} alt={post.data.title} className="h-full w-full object-cover rounded-lg " />
                 </div>
-                <div className="px-3 flex flex-col justify-between items-center">
-                    <div>
+                <div className="px-3 flex flex-col w-full justify-between items-center">
+                    <div className="w-full">
                         <h3 className="mb-1">{post.data.title}</h3>
                         <p className="hidden md:block w-11/12 text-sm opacity-75 mb-1">{post.data.desc}</p>
                     </div>
