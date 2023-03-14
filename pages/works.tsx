@@ -33,7 +33,7 @@ const Works = () =>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://lablab.ai/event/openai-hackathon/hcmuwus/mythorch-revolutionary-documents-interaction" title="MyThorch" thumbnail={thumbThorch}>
-                        A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user's needs and preferences.<br />
+                        A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user&apos;s needs and preferences.<br />
                         <span><b className="text-pink-600">Tech stack:</b> <em>React, NodeJS, Flask, Redis, GPT-3</em></span>
                     </GridItem>
                 </Section>
