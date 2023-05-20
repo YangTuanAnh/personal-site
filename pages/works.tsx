@@ -13,6 +13,8 @@ import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbTCF from "../public/images/works/projects/thecodefoundation.png"
 
+import thumbSketch from "../public/images/works/publications/sketch.png"
+import thumbText from "../public/images/works/publications/text.png"
 import thumbGamification from "../public/images/works/publications/gamification.png"
 import thumbTelea from "../public/images/works/publications/telea.png"
 
@@ -90,6 +92,20 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://paperswithcode.com/paper/sketchanimar-sketch-based-3d-animal-fine"
+                        title="SketchANIMAR: Sketch-based 3D Animal Fine-Grained Retrieval"
+                        thumbnail={thumbSketch}>
+                        Top 2 of the SketchANIMAR track on SHREC 2023 
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://paperswithcode.com/paper/textanimar-text-based-3d-animal-fine-grained"
+                        title="TextANIMAR: Text-based 3D Animal Fine-Grained Retrieval"
+                        thumbnail={thumbText}>
+                        Top 2 of the TextANIMAR track on SHREC 2023 
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://drive.google.com/file/d/13FuSjxEisztc1M7ZZhk2iemE1NoMFmQ2/view?usp=sharing"
                         title="Gamified solution to enhance students' interest in History - Immersion Learning and Gamification"

@@ -45,6 +45,7 @@ export const getStaticProps: GetStaticProps = async () =>
             content, data, filePath, slug
         }
     })
+    posts.sort((a, b) => a.data.publishedAt > b.data.publishedAt ? -1 : 1)
     return { props: { posts } }
 }
 
