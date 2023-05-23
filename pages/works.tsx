@@ -18,6 +18,7 @@ import thumbText from "../public/images/works/publications/text.png"
 import thumbGamification from "../public/images/works/publications/gamification.png"
 import thumbTelea from "../public/images/works/publications/telea.png"
 
+import thumbSplash from "../public/images/works/projects/splashforest.png"
 import thumbEverLast from "../public/images/works/projects/everlast.png"
 import thumbSBShuttle from "../public/images/works/projects/sbshuttle.png"
 import thumbCMS from "../public/images/works/projects/CMS.png"
@@ -147,6 +148,12 @@ const Works = () =>
                     <GridItem href="https://github.com/YangTuanAnh/MinesweeperCS161" title="CS161 Minesweeper" thumbnail={thumbMinesweeper}>
                         Simple Minesweeper game, includes mechanics, game difficulty, high scores, game customization, settings and saving/loading.<br />
                         <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://arcade.makecode.com/15786-25714-46377-44307" title="SplashForest" thumbnail={thumbSplash}>
+                        An 8-bit video game for a hackathon by the U.S Consulate General - Ho Chi Minh City, inspired by Bomberman<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Microsoft MakeCode Arcade</em></span>
                     </GridItem>
                 </Section>
             </div>
