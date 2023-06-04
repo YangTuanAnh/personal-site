@@ -3,6 +3,7 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbIm2Katex from "../public/images/works/projects/im2katex.png"
 import thumbThorch from "../public/images/works/projects/mythorch.webp"
 import thumbTrassify from "../public/images/works/projects/trassify.png"
 import thumbCrashCourse from "../public/images/works/projects/crashcourse.png"
@@ -34,6 +35,12 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/Im2KaTeX-Notion-Plugin" title="Im2KaTeX Notion Integration" thumbnail={thumbIm2Katex}>
+                        A Streamlit app takes in the user&apos;s Notion page ID and an image with math notation. An Pix2Tex model converts the math notation into the equivalent KaTeX notation, then creating a new equation block for that page via a PATCH call to Notion&apos;s API. <br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Python, Streamlit, Notion API, Pix2Tex</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://lablab.ai/event/openai-hackathon/hcmuwus/mythorch-revolutionary-documents-interaction" title="MyThorch" thumbnail={thumbThorch}>
                         A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user&apos;s needs and preferences.<br />
