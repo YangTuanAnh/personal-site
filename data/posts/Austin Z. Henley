@@ -1,0 +1,103 @@
+---
+icon: "🧩"
+title: "Austin Z. Henley"
+desc: "An appreciation post for a Microsoft researcher and ex-professor at the University of Tennessee"
+publishedAt: "2023-06-11"
+thumbnail: "https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+---
+I really love Austin Z. Henley's blog posts, especially his two blogs [Programming as play](https://austinhenley.com/blog/programmingasplay.html) and [Lessons from my PhD](https://austinhenley.com/blog/lessonsfrommyphd.html). Both of them granted me new perspectives to what it means to be a Computer Scientist in the long run, and just have fun in any field that involves the Design thinking process. 
+
+Hell! I even just found out that Austin Z. Henley just published [CoWrangler: Recommender System for Data-Wrangling Scripts](https://austinhenley.com/publications.html) and immediately released it as a VSCode extension (khủng). Would really love to bring my research ideas into actual practice (if i can do one of two fluently yet :despairfade:). 
+
+Austin Z. Henley works on AI + developer tools at Microsoft as a PM on the PROSE research team. Previously, he had been a professor at the University of Tennessee where he led a research group working on the usability of developer tools.
+
+I first accidentally stumbled onto [Programming as play](https://austinhenley.com/blog/programmingasplay.html) as a [daily.dev](https://daily.dev/) page. Absolutely fell in love with his field of work and his insights ever since.
+
+Here are some notes from both pages:
+
+For [Programming as play](https://austinhenley.com/blog/programmingasplay.html):
+> But I find it so freeing when there is no expectation to accomplish an objective or for the outcome to even be usable. I just want to enjoy the creative process of building something and possibly show it to others. Many people seem to think of programming as purely pragmatic. Something you do only for work or to get a task done.
+>
+> I want to change the notion that programming has to be a serious endeavor.
+
+> There were 7 themes of programming as play identified from the analysis: artistry, catalyst, fun, playgrounds, spontaneity, tinkering, and anti-work.
+
+For [Lessons from my PhD](https://austinhenley.com/blog/lessonsfrommyphd.html):
+### Lead for be led
+> If you show up to a meeting/internship/job expecting to be told what to do, then chances are someone will tell you something to do. It might not be the best thing for you to be doing though.
+>
+> Alternatively, if you show up to a meeting/internship/job with a convincing game plan, then chances are people will get out of your way so you can go do it. Sometimes they will even surprise you with the ways they can support you with it.
+>
+> Don't expect people in these situations to ask you what you want to work on. You should already be telling them.
+
+### Topic sentences
+> Write the first sentence of every paragraph you intend on having. Keep them simple for now. You can improve the prose later. That is it. Don't write the paragraph bodies yet!
+>
+> Now read the topic sentences.
+>
+> Do those sentences convey what you wanted? Do they flow together? Are you missing any major details? I often have to iterate on these a few times.
+
+> **Another great benefit**: If you ever need to write a summary or abstract of something you have written using this process, you get the initial draft for free: copy and paste all of the topic sentences. Voila. For example, the topic sentences from a paper's Introduction makes a great starting point for the abstract!
+
+### Get excited
+> Any job has parts that we don't enjoy doing. But if you don't find a way to get yourself excited, then it is going to be painful and you probably won't do very well.
+>
+> This saved me when I had nothing but weeks and weeks of qualitative coding and data analysis ahead of me.
+> 
+> I still have to remind myself of this on a regular basis when I'm dealing with a mountain of administrivia. There really isn't a secret to it. Take a swig of coffee and get yourself psyched up.
+
+### Unmotivated details
+> I picked up a pet peeve from my advisor: unmotivated details.
+>
+> _Why are you telling me this?_
+>
+> These unmotivated details are everywhere! Papers, presentations, blogs, meetings, emails, etc.
+>
+> Before you explain something, you probably need to motivate it. Why should this person care about what I'm going to tell them? It often only takes a few words to do so.
+
+Basically the Three Golden Circles - Why, How, What.
+
+### Slides versus speaker
+
+> There are two main modes of presenting: the speaker leads and the slides assist OR the slide leads and the speaker assists.
+>
+> **Speaker leads:** You want the attention to be on what you are saying. The slide exists to assist your message by showing a short form of what you are saying aloud. The slide should be very simple.
+>
+> **Slide leads:** You have a figure or table that you want the audience to understand. The speaker is there to help guide their attention.
+
+> Another big tip: Prime the audience for what slide comes next. Do this by having a verbal segue for every slide.
+>
+> For example, you are on a slide showing comments from users about your product. You transition by saying, "after receiving this feedback from users, we explored potential solutions...", then click, you show the next slide with your solutions.
+
+### Managers as input/output machines
+
+> These meetings are for getting feedback.
+>
+> In the words of my PhD advisor: "advisors are input/output machines". You put into it your update and you get back feedback. The meeting is for your benefit.
+>
+> However, you have to show up with something in order to get feedback. If all you say is "I'm still looking into that one thing" or "I'm stuck", then there is little to go off of. Sometimes that happens though. But if you want help from your advisor/manager, you have to show up with something. This is virtually always possible to do, even if you think you didn't make progress, though it does take a bit effort to get organized.
+
+Ah and I am guilty of this one literally right now :despairFade:
+
+> A few suggestions for running update meetings with your advisor/manager:
+>
+> * Assume they forgot everything that was said last meeting.
+> * Show up with things to talk about and a goal.
+> * In 3-4 sentences, refresh everyone's memory about the last meeting and what you were supposed to accomplish since then.
+> * In 4-6 sentences, summarize what you did, what worked, what didn't work, and what you think you should do next. Think of this as bullet points.
+> * Avoid diving into details until you know everyone is on the same page and caught up.
+> * If possible, show up with something tangible, like a visual aid, a demo, a draft, or at least some notes.
+
+### Daily progress tracking
+
+> Each day, I wrote down a few bullet points of what I did. I probably spent less than 2 minutes on it. I found that tracking my daily progress has a number of benefits:
+> 
+> * The next day, I can quickly resume working by looking at what I wrote yesterday.
+> * When I feel like I am stuck, it is motivating to look back and see the progress.
+> * It catalogs all of my efforts (what worked and what didn't).
+> * At the end of the week, I can summarize the daily bullet points to update my advisor/mentor/manager/team/lab.
+> * At the end of the month, I can summarize the weekly bullet points to track my progress towards bigger goals.
+> * It makes it easy to update my resume/CV and to fill out performance reviews.
+
+Need to get back to Bullet Journalling for this one.
+
