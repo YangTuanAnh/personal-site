@@ -79,8 +79,8 @@ const PostPage = ({ ...props }) =>
                     a: (props) => <a className="text-pink-400 hover:underline underline-offset-4 dark:brightness-100 brightness-90"{...props} />,
                     ul: (props) => <ul className="list-disc list-inside indent-6 "{...props} />,
                     ol: (props) => <ol className="list-decimal list-inside indent-6"{...props} />,
-                    blockquote: (props) => <blockquote className="dark:bg-neutral-700 bg-neutral-200 p-3 rounded-lg mb-3 italic" {...props} />,
-                    p: (props) => <p className="mb-3 indent-6" {...props} />,
+                    blockquote: (props) => <blockquote className="dark:bg-neutral-700 bg-neutral-200 p-3 rounded-lg mb-3" {...props} />,
+                    p: (props) => <p className="mb-3" {...props} />,
                     img: (props) => <img className="mx-auto p-6" {...props} />,
                     hr: (props) => <hr className="border border-black dark:border-white opacity-50 m-6" {...props}/>
                 }} />
