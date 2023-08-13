@@ -95,7 +95,7 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2023</span>
-          <span>Offered the NUS ASEAN Master's Scholarship</span>
+          <span>Offered the NUS ASEAN Master&apos;s Scholarship</span>
         </div>
       </Section>
 
