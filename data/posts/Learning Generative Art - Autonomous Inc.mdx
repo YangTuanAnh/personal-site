@@ -21,7 +21,7 @@ Although GenArt is almost always abstract in nature, it can’t be defined by th
 
 Visual forms of generative art started emerging in the 1960s, first with computers outputting to plotters, then with visual display units (VDUs), and later in more sophisticated forms of print and video. Early pioneers from the plotter years were Frieder Nake, George Nees, Vera Molnar, Paul Brown, and Manfred Mohr (see figure 1.3), who published a collection of computer-generated artworks called Artificiata I in 1969
 
-![Image](https://imgur.com/c7iEoDm)
+![Image](https://imgur.com/c7iEoDm.png)
 
 ### Processing - A Programming Language for Artists
 Programmatic art - functons, parameters, color values, operators, conditions, loops
@@ -51,7 +51,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/LwQjyAb)
+![Image](https://imgur.com/LwQjyAb.png)
 
 ```js
 var diam = 10
@@ -75,7 +75,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/uwlhOJT)
+![Image](https://imgur.com/uwlhOJT.png)
 
 ```js
 function setup() {
@@ -96,7 +96,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/MrooCY0)
+![Image](https://imgur.com/MrooCY0.png)
 
 ## Randomness & Noise - Chapter 3, 4 & 5
 ### The wrong way to draw a line
@@ -129,7 +129,7 @@ function draw() {
   
 }
 ```
-![Image](https://imgur.com/l5fX0y7)
+![Image](https://imgur.com/l5fX0y7.png)
 
 Perlin noise:
 - `noise` is generally used to produce a sequence of numbers. You pass it a series of seed values, each of which returns a noise value between 0 and 1 calculated according to the values that precede and follow it.
@@ -162,7 +162,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/SQfupnu)
+![Image](https://imgur.com/SQfupnu.png)
 
 ### The wrong way to draw a circle
 We’ve used various generative methods to deconstruct a machine-drawn image and reconstruct it with some form of unpredictability. We can apply this technique to make any feature of a shape much more interesting
@@ -190,7 +190,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/WHJF8kD)
+![Image](https://imgur.com/WHJF8kD.png)
 
 Circle as a spiral by increasing the radius
 
@@ -212,7 +212,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/upGY17D)
+![Image](https://imgur.com/upGY17D.png)
 
 Adding Noise to our radius increment
 
@@ -242,7 +242,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/QGJ0vpR)
+![Image](https://imgur.com/QGJ0vpR.png)
 
 Case Study: Wave Clock
 
@@ -292,7 +292,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/Rwz1yjI)
+![Image](https://imgur.com/Rwz1yjI.png)
 
 ### Two Dimensional Noise
 
@@ -323,7 +323,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/6Nn6Yyu)
+![Image](https://imgur.com/6Nn6Yyu.png)
 
 The return of the noise function for each x and y position is visualized as a variance in the alpha values on the tiny line you’re drawing at every position.
 
@@ -355,7 +355,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/TEy387G)
+![Image](https://imgur.com/TEy387G.png)
 
 ```js
 var noisex, noisey, startx;
@@ -393,7 +393,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/q4P8XVM)
+![Image](https://imgur.com/q4P8XVM.png)
 
 ```js
 var noisex, noisey, startx;
@@ -431,7 +431,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/XKlXX6h)
+![Image](https://imgur.com/XKlXX6h.png)
 
 ### Noisy Animation
 You can increment the starting noise seeds to traverse across the noise plane, while also providing variance in the drifting motion by adding another layer of noise.
@@ -440,7 +440,7 @@ Incrementing xstart, ystart to create diagonally drifting clouds
 
 You can simulate drifting by adding another set of noise seeds for time - another dimension to visualize
 
-![Image](https://imgur.com/7DAZdEV)
+![Image](https://imgur.com/7DAZdEV.png)
 
 ### The Third Dimension
 P5.js offers WEBGL to render 3d calculations, you can apply Perlin noise onto the third dimension for various visualization tasks
@@ -490,7 +490,7 @@ function drawPoint(x, y, noiseFactor) {
 }
 ```
 
-![Image](https://imgur.com/z57z90z)
+![Image](https://imgur.com/z57z90z.png)
 
 ```js
 var startx, starty, startz, noisex, noisey, noisez;
@@ -535,7 +535,7 @@ function drawPoint(x, y, z, noiseFactor) {
 }
 ```
 
-![Image](https://imgur.com/SvA4X20)
+![Image](https://imgur.com/SvA4X20.png)
 
 Formula for a sphere with polar coordinates:
 
@@ -577,7 +577,7 @@ function draw() {
 }
 ```
 
-![Image](https://imgur.com/lbl9vNo)
+![Image](https://imgur.com/lbl9vNo.png)
 
 ## Complexity - Chapter 6, 7 & 8
 ### Emergence
@@ -669,7 +669,7 @@ class Circle {
 }
 ```
 
-![Image](https://imgur.com/n2mrNFy)
+![Image](https://imgur.com/n2mrNFy.png)
 
 A few ways to make this look more interesting:
 
@@ -699,13 +699,13 @@ Conway’s Game of Life:
     - Any dead cells with 3 live neighbors is alive
     - All other live cells are dead
 
-![Image](https://imgur.com/UbuCSSS)
+![Image](https://imgur.com/UbuCSSS.png)
 
 [Conway's Game of Life on P5.js](https://editor.p5js.org/ClaudeYang/sketches/UXPHIOqKg)
 
 Vicniac's Vote: With the Vichniac Vote, the rules you apply are sociological - agents succumbing to the peergroup pressure from their neighbors - but the results have an aesthetic more familiar from biology or geology
 
-![Image](https://imgur.com/pC7gaCQ)
+![Image](https://imgur.com/pC7gaCQ.png)
 
 [Vicniac's Vote on P5.js](https://editor.p5js.org/ClaudeYang/sketches/dod77tuBg)
 
@@ -716,7 +716,7 @@ Brian’s Brain
     - If the state is resting, the next state is off.
     - If the state is off, and exactly two neighbors are firing, the state becomes firing
 
-![Image](https://imgur.com/xqiYFSM)
+![Image](https://imgur.com/xqiYFSM.png)
 
 Waves (Averaging)
 - There is no reason a cell has to be limited to two or three distinct values: its state can vary across a range of values
@@ -727,7 +727,7 @@ Waves (Averaging)
     - Otherwise, new state = current state + neighborhood average – previous state value.
     - If the new state goes over 255, make it 255. If the new state goes under 0, make it 0.
 
-![Image](https://imgur.com/WR3CUNv)
+![Image](https://imgur.com/WR3CUNv.png)
 
 [Waves on P5.js](https://editor.p5js.org/ClaudeYang/sketches/CtgwvBUuF)
 
@@ -857,7 +857,7 @@ class Branch {
 }
 ```
 
-![Image](https://imgur.com/Tlnod6z)
+![Image](https://imgur.com/Tlnod6z.png)
 
 ```js
 let pentagon;
@@ -975,4 +975,4 @@ function keyPressed() {
 }
 ```
 
-![Image](https://imgur.com/eE70KQW)
+![Image](https://imgur.com/eE70KQW.png)
