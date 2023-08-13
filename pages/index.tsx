@@ -86,8 +86,16 @@ export default function Home()
           <span>Interned in Fullstack Engineering at Tiki</span>
         </div>
         <div className="flex">
-          <span className="font-bold pr-6 ">2022 to present</span>
-          <span>Working at LEAN Social</span>
+          <span className="font-bold pr-6 ">2022</span>
+          <span>Worked at LEAN Social</span>
+        </div>
+        <div className="flex">
+          <span className="font-bold pr-6 ">2023</span>
+          <span>Interned in Algorithmic Design at Autonomous Inc.</span>
+        </div>
+        <div className="flex">
+          <span className="font-bold pr-6 ">2023</span>
+          <span>Offered the NUS ASEAN Master's Scholarship</span>
         </div>
       </Section>
 
