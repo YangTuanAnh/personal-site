@@ -3,6 +3,8 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbTranslation from "../public/images/works/projects/translation.png"
+import thumbCoffeeApp from "../public/images/works/projects/coffee_app.png"
 import thumbIm2Katex from "../public/images/works/projects/im2katex.png"
 import thumbThorch from "../public/images/works/projects/mythorch.webp"
 import thumbTrassify from "../public/images/works/projects/trassify.png"
@@ -35,6 +37,18 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/phkhanhtrinh23/translation_layoutrecovery" title="Document Translation with Layout Recovery" thumbnail={thumbTranslation}>
+                        Translates a .pdf file, preserving the original layout of that .pdf file. Achieved Second Prize of the Cinnamon AI Bootcamp 2023.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>NextJS, TailwindCSS, Django, PostgreSQL, Firebase, Docker Compose, envit5-translation, MaskRCNN, EasyOCR </em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/midterms_coffee_app" title="Coffee Ordering App" thumbnail={thumbCoffeeApp}>
+                        A Cofee ordering app made with Flutter - CS426 Midterms @ APCS HCMUS<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Dart</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/Im2KaTeX-Notion-Plugin" title="Im2KaTeX Notion Integration" thumbnail={thumbIm2Katex}>
                         A Streamlit app takes in the user&apos;s Notion page ID and an image with math notation. An Pix2Tex model converts the math notation into the equivalent KaTeX notation, then creating a new equation block for that page via a PATCH call to Notion&apos;s API. <br/>
