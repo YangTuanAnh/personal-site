@@ -3,6 +3,7 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbFoodfeed from "../public/images/works/projects/foodfeed.png"
 import thumbTranslation from "../public/images/works/projects/translation.png"
 import thumbCoffeeApp from "../public/images/works/projects/coffee_app.png"
 import thumbIm2Katex from "../public/images/works/projects/im2katex.png"
@@ -37,6 +38,12 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/foodfeed_django_backend" title="FoodFeed" thumbnail={thumbFoodfeed}>
+                        CS426 Final Project - an Android app that can help people share food locations and help them make reasonable decisions for their eating.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Android Studio, Jetpack Compose, Django, AWS EC2, Docker, PostgreSQL, S3, Redis, Selenium, BeautifulSoup</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/phkhanhtrinh23/translation_layoutrecovery" title="Document Translation with Layout Recovery" thumbnail={thumbTranslation}>
                         Translates a .pdf file, preserving the original layout of that .pdf file. Achieved Second Prize of the Cinnamon AI Bootcamp 2023.<br/>
