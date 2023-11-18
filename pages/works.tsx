@@ -81,24 +81,7 @@ const Works = () =>
                         <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib</em></span>
                     </GridItem>
                 </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://github.com/YangTuanAnh/13-HCMUwUS" title="Trassify" thumbnail={thumbTrassify}>
-                        A recyclable trash detection app, with monetized incentives to encourage recycling, an award-winning submission to GameUIT Hackathon 2022.<br />
-                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, TensorflowLite</em></span>
-                    </GridItem>
-                </Section>
-                <Section delay={0.2}>
-                    <GridItem href="/" title="Portfolio Website" thumbnail={thumbBanner}>
-                        This website, where I present my ideas, projects and personal updates. Acts as a portfolio.<br />
-                        <span><b className="text-pink-600">Tech stack:</b> <em>TypeScript, NextJS, TailwindCSS, MDX, NodeJS, Express, Firebase</em></span>
-                    </GridItem>
-                </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://github.com/YangTuanAnh/CS163-Dictionary-project" title="CS163 Dictionary" thumbnail={thumbDictionary}>
-                        A popular application to look up the meanings of words. Because the number of words in a dictionary goes to the thousands, students should design suitable data structures & algorithms. <br />
-                        <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib (Generate Eng-Vie with Python & Google Translate API)</em></span>
-                    </GridItem>
-                </Section>
+                
 
 
             </div>
@@ -161,6 +144,24 @@ const Works = () =>
                 Old works
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/13-HCMUwUS" title="Trassify" thumbnail={thumbTrassify}>
+                        A recyclable trash detection app, with monetized incentives to encourage recycling, an award-winning submission to GameUIT Hackathon 2022.<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, TensorflowLite</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="/" title="Portfolio Website" thumbnail={thumbBanner}>
+                        This website, where I present my ideas, projects and personal updates. Acts as a portfolio.<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>TypeScript, NextJS, TailwindCSS, MDX, NodeJS, Express, Firebase</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/CS163-Dictionary-project" title="CS163 Dictionary" thumbnail={thumbDictionary}>
+                        A popular application to look up the meanings of words. Because the number of words in a dictionary goes to the thousands, students should design suitable data structures & algorithms. <br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib (Generate Eng-Vie with Python & Google Translate API)</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/hcmuwus" title="EverLast" thumbnail={thumbEverLast}>
                         A webapp that aids the cronically ill with end-of-life logistics and acts as a digital memorial for loved ones to add onto (conceptual), an award-winning submission to GDSC-IU&apos;s IT Hackathon 2022<br />
