@@ -3,6 +3,7 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbYOLOCLIP from "../public/images/works/projects/yoloclip.png"
 import thumbFoodfeed from "../public/images/works/projects/foodfeed.png"
 import thumbTranslation from "../public/images/works/projects/translation.png"
 import thumbCoffeeApp from "../public/images/works/projects/coffee_app.png"
@@ -38,6 +39,12 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="#" title="Clip The Trigger: YOLO-CLIP for Gunpoint Gaze" thumbnail={thumbYOLOCLIP}>
+                        NUS CS4243 Final Project - a YOLOv8 and CLIP ensemble to solve weapon presence binary classification, with a novel data augmentation technique. Received 4.75/5 for Methodology, and 5/5 for Results.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, OpenCV, LabelStudio, HuggingFace Transformers, Ultralytics, sklearn</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/foodfeed_django_backend" title="FoodFeed" thumbnail={thumbFoodfeed}>
                         CS426 Final Project - an Android app that can help people share food locations and help them make reasonable decisions for their eating.<br/>
