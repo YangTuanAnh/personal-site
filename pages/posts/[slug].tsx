@@ -70,7 +70,7 @@ const PostPage = ({ ...props }) =>
                 <h1 className="text-4xl mb-6">{props.data.title}</h1>
                 <div className="flex justify-between">
                     <span>{props.data.publishedAt}</span>
-                    <span>{`${Number(views) > 1 ? views.toLocaleString() : '–––'} views`}</span>
+                    <span>{`${Number(views) > 1 ? views.toLocaleString() : '---'} views`}</span>
                 </div>
                 <Image src={props.data.thumbnail} alt={props.data.title} width={2000} height={2000} className="object-cover w-full p-6 aspect-video" />
                 
