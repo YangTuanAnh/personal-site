@@ -22,6 +22,7 @@ import thumbSketch from "../public/images/works/publications/sketch.png"
 import thumbText from "../public/images/works/publications/text.png"
 import thumbGamification from "../public/images/works/publications/gamification.png"
 import thumbTelea from "../public/images/works/publications/telea.png"
+import thumbPlant from "../public/images/works/publications/soict.png"
 
 import thumbSplash from "../public/images/works/projects/splashforest.png"
 import thumbEverLast from "../public/images/works/projects/everlast.png"
@@ -111,6 +112,13 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+            <Section delay={0.2}>
+                    <GridItem href="https://doi.org/10.1145/3628797.3629016"
+                        title="Deep Learning Hierarchical Methods for Insect Pest Recognition on Plants"
+                        thumbnail={thumbPlant}>
+                        Conference Submission for SoICT 2023, SC203 & WR407 research project 
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://paperswithcode.com/paper/sketchanimar-sketch-based-3d-animal-fine"
                         title="SketchANIMAR: Sketch-based 3D Animal Fine-Grained Retrieval"

@@ -1,8 +1,26 @@
 [
     {
+        "date": "Dec 2023",
+        "events": [
+            "Won Outstanding Submmission for SCUDEM VIII 2023 - SIMIODE Challenge Using Differential Equation Modelling"
+        ]
+    },
+    {
+        "date": "Oct 2023",
+        "events": [
+            "Got the paper \"Deep Learning Hierarchical Methods for Insect Pest Recognition on Plants\" accepted for SoICT 2023"
+        ]
+    },
+    {
         "date": "Aug 2023",
         "events": [
             "Offered for a Masters Scholarship Exchange program from NUS"
+        ]
+    },
+    {
+        "date": "Jul 2023",
+        "events": [
+            "Got the paper \"SketchANIMAR: Sketch-based 3D Animal Fine-Grained Retrieval\" and \"TextANIMAR: Text-based 3D Animal Fine-Grained Retrieval\" accepted for Computers & Graphics 2023."
         ]
     },
     {
