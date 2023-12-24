@@ -24,7 +24,7 @@ const Main = ({children, router}: {children:any, router:any}) => {
                 {children}
                 <Footer/>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: kofi }} />
+            <div className="bg-neutral-100 dark:bg-neutral-900" dangerouslySetInnerHTML={{ __html: kofi }} />
         </div>
     )
 }
