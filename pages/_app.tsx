@@ -26,8 +26,9 @@ export default function App({ Component, pageProps, router }: AppProps)
             <Component {...pageProps} key={router.route} />
           </AnimatePresence>
         </Layout>
+        <div dangerouslySetInnerHTML={{ __html: kofi }} />
       </ThemeProvider>
-      <div dangerouslySetInnerHTML={{ __html: kofi }} />
+      
     </>
   )
 }
