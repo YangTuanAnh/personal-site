@@ -2,9 +2,9 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import Logo from '../Logo'
 import DarkMode from '../DarkMode'
+import SocialMediaLink from '../SocialMediaLink'
 
-const LinkItem = ({ href, path, children }: { href: string, path: string, children: any }) =>
-{
+const LinkItem = ({ href, path, children }: { href: string, path: string, children: any }) => {
     return (
         <Link href={href} className={`${href == path ? 'text-white bg-pink-600' : ''} p-2 hover:underline underline-offset-4`}>
             {children}
@@ -12,8 +12,7 @@ const LinkItem = ({ href, path, children }: { href: string, path: string, childr
     )
 }
 
-const HamburgerButton = ({ path }: { path: string }) =>
-{
+const HamburgerButton = ({ path }: { path: string }) => {
     const [pressed, setPressed] = useState(false);
     return (
         <button className=" md:hidden rounded-lg outline outline-neutral-400 outline-2 w-12 h-12 flex justify-center items-center
@@ -51,8 +50,7 @@ const HamburgerButton = ({ path }: { path: string }) =>
     )
 }
 
-const Navbar = ({ path }: { path: string }) =>
-{
+const Navbar = ({ path }: { path: string }) => {
 
     return (
         <nav className="fixed w-full backdrop-blur z-50">
@@ -82,12 +80,15 @@ const Navbar = ({ path }: { path: string }) =>
                         </LinkItem>
                     </li>
                 </ul>
-                
+
             </ul>
             <div className="flex align-right inline-block md:none gap-3 p-4 absolute top-0 right-0">
-                    <DarkMode/>
-                    <HamburgerButton path={path} />
-                </div>
+                <DarkMode />
+                <a className="flex items-center" href='https://ko-fi.com/E1E8SIVHI' target='_blank'>
+                    <img style={{border: '0px', height: '2.5rem'}} src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' alt='Buy Me a Coffee at ko-fi.com' />
+                </a>
+                <HamburgerButton path={path} />
+            </div>
         </nav>
     )
 }
