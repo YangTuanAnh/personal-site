@@ -1,14 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
-  const kofi = `<script>
-  kofiWidgetOverlay.draw('yangtuananh', {
-    'type': 'floating-chat',
-  'floating-chat.donateButton.text': 'Support me',
-  'floating-chat.donateButton.background-color': '#00b9fe',
-  'floating-chat.donateButton.text-color': '#fff'
-});
-</script>`
+
   return (
     <Html lang="en">
       <Head>
@@ -18,7 +11,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <div dangerouslySetInnerHTML={{ __html: kofi }} />
       </body>
     </Html>
   )
