@@ -3,6 +3,14 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 
 const Main = ({children, router}: {children:any, router:any}) => {
+    const kofi = `<script>
+    kofiWidgetOverlay.draw('yangtuananh', {
+      'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+  </script>`
     return (
         <div className="bg-neutral-100 dark:bg-neutral-900 min-h-screen">
             <Head>
@@ -16,7 +24,7 @@ const Main = ({children, router}: {children:any, router:any}) => {
                 {children}
                 <Footer/>
             </div>
-            
+            <div dangerouslySetInnerHTML={{ __html: kofi }} />
         </div>
     )
 }
