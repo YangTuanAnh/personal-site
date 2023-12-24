@@ -13,7 +13,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope"></link>
-        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script async src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
       </Head>
       <body>
         <Main />
