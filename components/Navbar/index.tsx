@@ -84,7 +84,7 @@ const Navbar = ({ path }: { path: string }) => {
             </ul>
             <div className="flex align-right inline-block md:none gap-3 p-4 absolute top-0 right-0">
                 <DarkMode />
-                <a className="flex items-center" href='https://ko-fi.com/E1E8SIVHI' target='_blank'>
+                <a className="flex items-center" href='https://ko-fi.com/E1E8SIVHI' target='_blank' rel="noreferrer">
                     <img style={{border: '0px', height: '2.5rem'}} src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' alt='Buy Me a Coffee at ko-fi.com' />
                 </a>
                 <HamburgerButton path={path} />
