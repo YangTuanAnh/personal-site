@@ -1,27 +1,24 @@
 import Section from '../components/Section/section'
-import news from '../data/news.json'
-import Link from 'next/link'
-import StyledLink from '../components/StyledLink'
-const News = () =>
-{
+import microblog from '../data/microblog.json'
+const Microblog = () => {
     return (
         <div>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-                News
+                Microblogging
             </h3>
             <Section delay={0.2}>
                 {
-                    news.map(item =>
+                    microblog.map(item =>
                     {
                         return (
-                            <div className="md:flex" key={item.date}>
-                                <span className="w-40 font-bold">{item.date}</span>
+                            <div className="md:flex" key={item.title}>
+                                <span className="w-40 font-bold">{item.title}</span>
                                 <div className="w-full">
                                     {
-                                        item.events.map(event =>
+                                        item.data.map(it =>
                                         {
                                             return (
-                                                <p className="mb-1.5" key={event}>{event}</p>
+                                                <p className="mb-1.5" key={it.date}>{it.date + `: `+ it.content}</p>                                                
                                             )
                                         })
                                     }
@@ -30,14 +27,9 @@ const News = () =>
                         )
                     })
                 }
-            
-                <StyledLink href="/microblog">
-                    Microblogging
-                </StyledLink>
             </Section>
-
         </div>
     )
 }
 
-export default News;
+export default Microblog;
