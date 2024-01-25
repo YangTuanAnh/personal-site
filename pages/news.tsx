@@ -31,9 +31,14 @@ const News = () =>
                     })
                 }
             
-                <StyledLink href="/microblog">
-                    Microblogging
-                </StyledLink>
+            <Link href="/microblog">
+            <button className="transition ease-in-out hover:-translate-y-1 hover:scale-110 bg-amber-400 hover:brightness-110 text-neutral-900 inline-flex px-4 py-2 rounded-lg items-center">
+              Microblogging&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
+          </Link>
             </Section>
 
         </div>
