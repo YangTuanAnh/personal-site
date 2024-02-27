@@ -7,7 +7,7 @@ const Resume = () =>
                     Download
                 </button>
             </a>
-            <iframe src="YangTuanAnh_SWEResume_2023.pdf" width="100%" height="800px" />
+            <iframe src="YangTuanAnh_SWEResume_2024.pdf" width="100%" height="800px" />
         </div>
     )
 }
