@@ -97,6 +97,10 @@ export default function Home()
           <span className="font-bold pr-6 ">2023</span>
           <span>Offered the NUS ASEAN Master&apos;s Scholarship</span>
         </div>
+        <div className="flex">
+          <span className="font-bold pr-6 ">2024</span>
+          <span>Worked as a Research Assistant at HySonLab & Dao HyperAI Lab</span>
+        </div>
       </Section>
 
       <Section delay={0.6}>

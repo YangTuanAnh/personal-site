@@ -13,6 +13,7 @@ import thumbTrassify from "../public/images/works/projects/trassify.png"
 import thumbCrashCourse from "../public/images/works/projects/crashcourse.png"
 import thumbBanner from "../public/images/banner.png"
 import thumbDictionary from "../public/images/works/projects/dictionary.png"
+import thumbSNORD from "../public/images/works/projects/snord.png"
 
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
@@ -20,6 +21,7 @@ import thumbTCF from "../public/images/works/projects/thecodefoundation.png"
 
 import thumbSketch from "../public/images/works/publications/sketch.png"
 import thumbText from "../public/images/works/publications/text.png"
+import thumbSperm from "../public/images/works/publications/medico.png"
 import thumbGamification from "../public/images/works/publications/gamification.png"
 import thumbTelea from "../public/images/works/publications/telea.png"
 import thumbPlant from "../public/images/works/publications/soict.png"
@@ -40,6 +42,12 @@ const Works = () =>
                 Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/doraemonidol/SNORD" title="SNORD: Smart Nicotine Oversight and Regulation Device" thumbnail={thumbSNORD}>
+                        SNORD is an intelligent electronic cigarette product designed to assist users in monitoring and modifying their smoking habits.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Golang, Firebase, GCP, Docker</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="#" title="Clip The Trigger: YOLO-CLIP for Gunpoint Gaze" thumbnail={thumbYOLOCLIP}>
                         NUS CS4243 Final Project - a YOLOv8 and CLIP ensemble to solve weapon presence binary classification, with a novel data augmentation technique. Received 4.75/5 for Methodology, and 5/5 for Results.<br/>
@@ -112,7 +120,15 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
-            <Section delay={0.2}>
+                <Section delay={0.2}>
+                    <GridItem href="https://2023.multimediaeval.com/paper15.pdf"
+                        title="Optimizing Sperm Detection and Tracking in Fluids
+                        with Equalize Class Representation Augmentation"
+                        thumbnail={thumbSperm}>
+                        Distinctive Mention for MediaEval 2023 for the Medico Track. 
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
                     <GridItem href="https://doi.org/10.1145/3628797.3629016"
                         title="Deep Learning Hierarchical Methods for Insect Pest Recognition on Plants"
                         thumbnail={thumbPlant}>
