@@ -37,7 +37,7 @@ export default function Home()
           Works
         </h3>
         <p className="indent-4 break-words">
-          I grew up in Ho Chi Minh City, Vietnam, I'm Vietnamese-Taiwanese, and I'm currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I'm pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci, and developing robust software systems, alongside a strong focus on MLOps.
+          I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci, and developing robust software systems, alongside a strong focus on MLOps.
         </p>
         <p className="indent-4 break-words">
           Currently, I am working as a Research Assistant for  &nbsp;<StyledLink href="https://github.com/HySonLab/">HySonLab</StyledLink>&nbsp; & &nbsp;<StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.

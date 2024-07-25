@@ -17,7 +17,7 @@ const Microblog = () => {
                                     item.data.map(it =>
                                     {
                                         return (
-                                            <div className="w-full mb-1.5 flex">
+                                            <div className="w-full mb-1.5 flex" key={it.date}>
                                                 <p className="w-32 font-semibold text-neutral-400">{it.date}</p> 
                                                 <p>{it.content}</p>    
                                             </div>                                           
