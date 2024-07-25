@@ -105,7 +105,7 @@ export default function Home()
           I ♥
         </h3>
         <p className="indent-4 break-words">
-          Multimedia Retrieval, Computer Vision, MLOps, Databases, Competitive Programming, Design, Music (Kpop, Europop, Soviet Classical Orchestra, Video Game OSTs, Breakcore, played the piano years ago), Languages (Vietnamese, English, Mandarin, Spanish)
+        <StyledLink href="https://github.com/dangkhoasdc/awesome-vector-database">Multimedia Retrieval</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=40riCqvRoMs">Computer Vision</StyledLink>, <StyledLink href="https://huyenchip.com/mlops/">MLOps</StyledLink>, <StyledLink href="https://www.uber.com/en-VN/blog/h3/">Databases</StyledLink>, <StyledLink href="https://oj.vnoi.info/">Competitive Programming</StyledLink>, <StyledLink href="https://hanvdao.com/">Design</StyledLink>, Music (<StyledLink href="https://youtu.be/FyG21rXCxlY">Kpop</StyledLink>, <StyledLink href="https://youtu.be/HYfkxX4PFyw">Europop</StyledLink>, <StyledLink href="https://youtu.be/WaKdPgkTZ7M">Soviet Classical Orchestral</StyledLink>, <StyledLink href="https://youtu.be/Bl-YMD6yePc">Video Game OSTs</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=L5q4uYj-gyg">Breakcore</StyledLink>, <StyledLink href="https://youtu.be/rViCS8i0JxI">played the piano years ago</StyledLink>), Languages (Vietnamese, English, Mandarin, Spanish), sharing about my idols (like these links).
         </p>
       </Section>
 
@@ -134,6 +134,7 @@ export default function Home()
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </button>
+            <p className="text-sm my-1.5 text-neutral-500">(*incoherent bilingual utterances)</p>
           </Link>
         </div>
       </Section>
