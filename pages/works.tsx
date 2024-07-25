@@ -3,6 +3,7 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbMnemeAI from "../public/images/works/projects/mnemeai.png"
 import thumbYOLOCLIP from "../public/images/works/projects/yoloclip.png"
 import thumbFoodfeed from "../public/images/works/projects/foodfeed.png"
 import thumbTranslation from "../public/images/works/projects/translation.png"
@@ -18,6 +19,7 @@ import thumbSNORD from "../public/images/works/projects/snord.png"
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbTCF from "../public/images/works/projects/thecodefoundation.png"
+import thumbProjectX from "../public/images/works/projects/projectx.png"
 
 import thumbSketch from "../public/images/works/publications/sketch.png"
 import thumbText from "../public/images/works/publications/text.png"
@@ -43,6 +45,12 @@ const Works = () =>
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
+                    <GridItem href="https://github.com/htamlive/MnemeAI---Smart-Note-Assistant" title="MnemeAI Smart Note Assistant Public" thumbnail={thumbMnemeAI}>
+                    Smart-Note-Assistant is a web application designed to assist users with note-taking, task management, and calendar integration. It leverages various APIs to provide a seamless user experience.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Google Tasks, Telegram, Notion APIs, Celery, Langchain, Redis, PostgreSQL, pgvector, Flask, OpenAI Embeddings, Llama 3, AWS S3, Docker, Caddy</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
                     <GridItem href="https://github.com/doraemonidol/SNORD" title="SNORD: Smart Nicotine Oversight and Regulation Device" thumbnail={thumbSNORD}>
                         SNORD is an intelligent electronic cigarette product designed to assist users in monitoring and modifying their smoking habits.<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Golang, Firebase, GCP, Docker</em></span>
@@ -67,38 +75,22 @@ const Works = () =>
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
-                    <GridItem href="https://github.com/YangTuanAnh/midterms_coffee_app" title="Coffee Ordering App" thumbnail={thumbCoffeeApp}>
-                        A Cofee ordering app made with Flutter - CS426 Midterms @ APCS HCMUS<br/>
-                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Dart</em></span>
-                    </GridItem>
-                </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://github.com/YangTuanAnh/Im2KaTeX-Notion-Plugin" title="Im2KaTeX Notion Integration" thumbnail={thumbIm2Katex}>
-                        A Streamlit app takes in the user&apos;s Notion page ID and an image with math notation. An Pix2Tex model converts the math notation into the equivalent KaTeX notation, then creating a new equation block for that page via a PATCH call to Notion&apos;s API. <br/>
-                        <span><b className="text-pink-600">Tech stack:</b> <em>Python, Streamlit, Notion API, Pix2Tex</em></span>
-                    </GridItem>
-                </Section>
-                <Section delay={0.2}>
                     <GridItem href="https://lablab.ai/event/openai-hackathon/hcmuwus/mythorch-revolutionary-documents-interaction" title="MyThorch" thumbnail={thumbThorch}>
                         A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user&apos;s needs and preferences.<br />
                         <span><b className="text-pink-600">Tech stack:</b> <em>React, NodeJS, Flask, Redis, GPT-3</em></span>
                     </GridItem>
                 </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://github.com/YangTuanAnh/CS202_Project" title="CS202 Crash Course" thumbnail={thumbCrashCourse}>
-                        Inspired by Crossy Road, a 3D video game that lets players avoid obstacles such as cars and dinosaurs, on their way across the streets. Some special features include various lane types, traffic lamps and endless gameplay.<br />
-                        <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib</em></span>
-                    </GridItem>
-                </Section>
-                
-
-
             </div>
 
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Collaborations
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://www.projectxvietnam.org/" title="Project X Vietnam Tech Community" thumbnail={thumbProjectX}>
+                        Connecting tech startups with young Vietnamese talents and offer mentorship, career orientations, and technical/soft-skills training through events/workshops and building communities for high-caliber students.
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://lean.social/" title="LEAN Social" thumbnail={thumbLEAN}>
                         Engineered alongside an MVP for LEAN Social - an early-stage Edutech startup, organized by university students across Asia.
@@ -149,25 +141,29 @@ const Works = () =>
                         Top 2 of the TextANIMAR track on SHREC 2023 
                     </GridItem>
                 </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://drive.google.com/file/d/13FuSjxEisztc1M7ZZhk2iemE1NoMFmQ2/view?usp=sharing"
-                        title="Gamified solution to enhance students' interest in History - Immersion Learning and Gamification"
-                        thumbnail={thumbGamification}>
-                        Best Paper at the International Student Science Forum 2022
-                    </GridItem>
-                </Section>
-                <Section delay={0.2}>
-                    <GridItem href="https://youtu.be/z4lavJuLGEM"
-                        title="Speaker: “Diamond Time Seminar 19 - Productivity & Organization”, Telea Networking "
-                        thumbnail={thumbTelea}>
-                        idk lol what happened
-                    </GridItem>
-                </Section>
             </div>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Old works
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/midterms_coffee_app" title="Coffee Ordering App" thumbnail={thumbCoffeeApp}>
+                        A Cofee ordering app made with Flutter - CS426 Midterms @ APCS HCMUS<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Dart</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/Im2KaTeX-Notion-Plugin" title="Im2KaTeX Notion Integration" thumbnail={thumbIm2Katex}>
+                        A Streamlit app takes in the user&apos;s Notion page ID and an image with math notation. An Pix2Tex model converts the math notation into the equivalent KaTeX notation, then creating a new equation block for that page via a PATCH call to Notion&apos;s API. <br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Python, Streamlit, Notion API, Pix2Tex</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/CS202_Project" title="CS202 Crash Course" thumbnail={thumbCrashCourse}>
+                        Inspired by Crossy Road, a 3D video game that lets players avoid obstacles such as cars and dinosaurs, on their way across the streets. Some special features include various lane types, traffic lamps and endless gameplay.<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>C/C++, CMake, Raylib</em></span>
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/13-HCMUwUS" title="Trassify" thumbnail={thumbTrassify}>
                         A recyclable trash detection app, with monetized incentives to encourage recycling, an award-winning submission to GameUIT Hackathon 2022.<br />
