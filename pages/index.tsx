@@ -21,7 +21,7 @@ export default function Home()
       <main className="md:flex">
         <div className="grow">
           <h2>
-            Yang Tuan Anh
+            Yang Tuấn Anh 
           </h2>
           <p>
             APCS21 @ VNUHCM - University of Science
@@ -37,13 +37,10 @@ export default function Home()
           Works
         </h3>
         <p className="indent-4 break-words">
-          Hello there! I grew up in Ho Chi Minh City, Vietnam, and currently a sophomore at the&nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;.
-          I am now looking for internships and research opportunities in the fields of Software Engineering, Machine Learning and Project Management that will allow me to apply my programming, project management, and creative expertise to the professional sphere. I have a background in Computer Science and have managed student-run organizations.
+          I grew up in Ho Chi Minh City, Vietnam, I'm Vietnamese-Taiwanese, and I'm currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I'm pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci, and developing robust software systems, alongside a strong focus on MLOps.
         </p>
         <p className="indent-4 break-words">
-          Currently, I am working as a Software Engineer for&nbsp; 
-          <StyledLink href="https://lean.social/">LEAN Social</StyledLink>, an edutech startup and a Teaching Assistant for&nbsp;
-          <StyledLink href="https://www.steamforvietnam.org/">STEAM For Vietnam</StyledLink>.
+          Currently, I am working as a Research Assistant for  &nbsp;<StyledLink href="https://github.com/HySonLab/">HySonLab</StyledLink>&nbsp; & &nbsp;<StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.
         </p>
         <div className="flex justify-center my-6 gap-4">
           <Link href="/works">
@@ -99,7 +96,7 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2024</span>
-          <span>Worked as a Research Assistant at HySonLab & Dao HyperAI Lab</span>
+          <span>Worked as a Research Assistant at HySonLab & Dao HyperAI Lab<br/>Worked as an AI Engineer at Autonomous Inc.</span>
         </div>
       </Section>
 
@@ -108,7 +105,7 @@ export default function Home()
           I ♥
         </h3>
         <p className="indent-4 break-words">
-          Software Engineering, Machine Learning, Competitive Programming, Mathematics, Art, Music, Languages
+          Multimedia Retrieval, Computer Vision, MLOps, Databases, Competitive Programming, Design, Music (Kpop, Europop, Soviet Classical Orchestra, Video Game OSTs, Breakcore, played the piano years ago), Languages (Vietnamese, English, Mandarin, Spanish)
         </p>
       </Section>
 

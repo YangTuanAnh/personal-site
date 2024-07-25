@@ -1,177 +1,170 @@
 [
     {
-        "title": "Jan 2024",
+        "title": "2024",
         "data": [
-            {
-                "date": "24/1",
-                "content": "New microblogging section!"
-            }
+            {"date": "June 23",     "content": "Lẩu Dê and Billards with CinnamonAI teammates."},
+            {"date": "June 19",     "content": "UNESCO Youth Forum, good networking with people."},
+            {"date": "June 14",     "content": "Caffeine overdose and heart palpatations."},
+            {"date": "June 7",      "content": "Surprise call from Giáo vụ thretening to remove my Sem 2 records."},
+            {"date": "June 3",      "content": "First day at work."},
+            {"date": "June 1",      "content": "Laptop broke."},
+            {"date": "May 28",      "content": "Got the job as an AI Engineer at Autonomous Inc."},
+            {"date": "May 20",      "content": "Presented final project for Software Design & Analysis class"},
+            {"date": "May 15",      "content": "Learned how to use plt.subplots, it's over for yall."},
+            {"date": "May 11",      "content": "Eurovision Grand Finals, joostice."},
+            {"date": "May 9",       "content": "Eurovision Semi Finals 2."},
+            {"date": "May 7",       "content": "Eurovision Semi Finals 1, CROWN THE WITCH!!!!"},
+            {"date": "May 6",       "content": "Invited to Autonomous for an interview."},
+            {"date": "May 3",       "content": "Sem 2 Finals."},
+            {"date": "April 26",    "content": "Sushi dinner party with research partners"},
+            {"date": "April 21",    "content": "Zhong wins Thách Thức 2024 and avenged us."},
+            {"date": "April 14",    "content": "Thách Thức semifinals, had the best round of the season."},
+            {"date": "April 2",     "content": "Shopee Office Tour with ProjectX."},
+            {"date": "March 30",    "content": "Went to Google Developer Group event, met Nguyễn Hoàng Bảo Đại."},
+            {"date": "March 24",    "content": "Day 2 of Thách Thức Eliminations, avoided play-off with xv6 and entered semi-finals"},
+            {"date": "March 23",    "content": "Day 1 of Thách Thức Eliminations, Zhong bodied us."},
+            {"date": "March 10",    "content": "Thách Thức 2024 Audition Round."},
+            {"date": "March 2",     "content": "Went to FPTU for Solution Challenge Semifinals, stopped at top 8."},
+            {"date": "February 17", "content": "RA Interview with prof Truong Hy Son."},
+            {"date": "February 14", "content": "5 seconds of fame - appeared for 5 seconds on VTV for a section about ProjectX."},
+            {"date": "February 5",  "content": "Competed in MCM/ICM 2024."},
+            {"date": "January 31",  "content": "My birthday! 🍰"},
+            {"date": "January 27",  "content": "Volunteering at Cần Giờ with ONC."},
+            {"date": "January 24",  "content": "New microblogging section!"},
+            {"date": "January 20",  "content": "Met the-one-and-only Trần Xuân Bách."},
+            {"date": "January 17",  "content": "Learned how to trade stocks in CompFin class"},
+            {"date": "January 1",   "content": "Saw fireworks downtown for the first time."}            
         ]
     },
     {
-        "title": "Dec 2023",
+        "title": "2023",
         "data": [
             {
-                "date": "31/12",
+                "date": "December 31",
                 "content": "Hydroshiba's birthday party."
             },
             {
-                "date": "22/12",
+                "date": "December 22",
                 "content": "Went back and forth just to get a signature for Don Nhap Hoc Lai."
             },
             {
-                "date": "20/12",
+                "date": "December 20",
                 "content": "Got results for SCUDEM!"
             },
             {
-                "date": "16/12",
+                "date": "December 16",
                 "content": "Travelled from Malaysia, to Singapore, and to Vietnam in 1 day."
             },
             {
-                "date": "12/12",
+                "date": "December 12",
                 "content": "Got a chauffeur and went around Johor Bahru for food and shows."
             },
             {
-                "date": "10/12",
+                "date": "December 10",
                 "content": "Checked out of NUS and moved to Malaysia."
             },
             {
-                "date": "9/12",
+                "date": "December 9",
                 "content": "Went to Chinatown and the National Museum of Singapore."
             },
             {
-                "date": "8/12",
+                "date": "December 8",
                 "content": "Went to the National Gallery of Singapore, and Little India."
             },
             {
-                "date": "7/12",
+                "date": "December 7",
                 "content": "Touring Nanyang Technological University, the Hive was a highlight."
             },
             {
-                "date": "6/12",
+                "date": "December 6",
                 "content": "Last final exam at NUS."
-            }
-        ]
-    },
-    {
-        "title": "Nov 2023",
-        "data": [
+            },
             {
-                "date": "28/11",
+                "date": "November 28",
                 "content": "DiscoverNUS debriefing meeting."
             },
             {
-                "date": "24/11",
+                "date": "November 24",
                 "content": "Got to meet prof Minh Tân over School of Science."
             },
             {
-                "date": "23/11",
+                "date": "November 23",
                 "content": "Exchange student grad school dinner party."
             },
             {
-                "date": "22/11",
+                "date": "November 22",
                 "content": "SoICT Poster be looking good."
             },
             {
-                "date": "7/11",
+                "date": "November 7",
                 "content": "NUS Exchange student farewell party."
             },
             {
-                "date": "4/11",
+                "date": "November 4",
                 "content": "Coffee chat with HCMUS alumnis at NUS."
             },
             {
-                "date": "1/11",
+                "date": "November 1",
                 "content": "Finished Learning how to Learn on Coursera."
-            }
-        ]
-    },
-    {
-        "title": "Oct 2023",
-        "data": [
+            },
             {
-                "date": "31/10",
+                "date": "October 31",
                 "content": "UTown Halloween event."
             },
             {
-                "date": "18/10",
+                "date": "October 18",
                 "content": "HCMUS-GDSC application interviews."
             },
             {
-                "date": "3/10",
+                "date": "October 3",
                 "content": "Finally got Network Flow algorithms."
-            }            
-        ]
-    },
-    {
-        "title": "Sep 2023",
-        "data": [
+            },
             {
-                "date": "2/9",
+                "date": "September 2",
                 "content": "Hiking with NUS & PTNK alums."
-            }
-        ]
-    },
-    {
-        "title": "Aug 2023",
-        "data": [
+            },
             {
-                "date": "30/8",
+                "date": "August 30",
                 "content": "SoC Career Fair with huge companies."
             },
             {
-                "date": "20/8",
+                "date": "August 20",
                 "content": "Finally found Blahaj."
             },
             {
-                "date": "12/8",
+                "date": "August 12",
                 "content": "Sentosa Beach with VNCNUS!"
             },
             {
-                "date": "9/8",
+                "date": "August 9",
                 "content": "Singapore Independence Day festivities."
             },
             {
-                "date": "6/8",
+                "date": "August 6",
                 "content": "Made it to Singapore!"
-            }
-        ]
-    },
-    {
-        "title": "Jun 2023",
-        "data": [
+            },
             {
-                "date": "15/6",
+                "date": "June 15",
                 "content": "Fell on the bus during the chorus of MAGO (Gfriend)."
-            }
-        ]
-    },
-    {
-        "title": "Apr 2023",
-        "data": [
+            },
             {
-                "date": "17/4",
+                "date": "April 17",
                 "content": "I'm a published author at 20!"
             },
             {
-                "date": "16/4",
+                "date": "April 16",
                 "content": "HCMUS Career Fair and Thách Thức finale was a blast!"
             },
             {
-                "date": "14/4",
+                "date": "April 14",
                 "content": "Flopped Sun Life's Sun Bright application on the 4th round."
             },
             {
-                "date": "8/4",
+                "date": "April 8",
                 "content": "Google Women Techmaker Networking event."
-            }
-        ]
-    },
-    {
-        "title": "Mar 2023",
-        "data": [
+            },
             {
-                "date": "8/3",
+                "date": "March 8",
                 "content": "7th place for Thách Thức 2023's qualifier."
             }
         ]

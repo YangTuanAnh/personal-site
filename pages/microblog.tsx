@@ -4,30 +4,31 @@ const Microblog = () => {
     return (
         <div>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-                Microblogging
+                Microblogging since 2023
             </h3>
-            <Section delay={0.2}>
+            {
+                microblog.map(item =>
                 {
-                    microblog.map(item =>
-                    {
-                        return (
-                            <div className="md:flex" key={item.title}>
-                                <span className="w-40 font-bold">{item.title}</span>
-                                <div className="w-full">
+                    return (
+                        <div className="text-sm mb-10" key={item.title}>
+                            <p className="w-40 font-bold mb-2">{item.title}</p>
+                            <div className="w-full">
+                                {
+                                    item.data.map(it =>
                                     {
-                                        item.data.map(it =>
-                                        {
-                                            return (
-                                                <p className="mb-1.5" key={it.date}>{it.date + `: `+ it.content}</p>                                                
-                                            )
-                                        })
-                                    }
-                                </div>
+                                        return (
+                                            <div className="w-full mb-1.5 flex">
+                                                <p className="w-32 font-semibold text-neutral-400">{it.date}</p> 
+                                                <p>{it.content}</p>    
+                                            </div>                                           
+                                        )
+                                    })
+                                }
                             </div>
-                        )
-                    })
-                }
-            </Section>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }

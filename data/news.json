@@ -1,24 +1,50 @@
 [
     {
-        "date": "Dec 2023",
+        "date": "June 2024", 
+        "events": [
+            "Offered a position as an AI Engineer at Autonomous Inc.",
+            "Invited as a tech representative for a UNESCO Youth Forum"
+        ]
+    },
+    {
+        "date": "April 2024", 
+        "events": [
+            "Semi Finalist for HCMUS-FIT Thách Thức 2024"
+        ]
+    },
+    {
+        "date": "March 2024", 
+        "events": [
+            "Placed at Top 8 for the GDSC Hackathon - Southern Round.",
+            "Started work as a Research Assistant under HySonLab and Dao HyperAI Lab"
+        ]
+    },
+    {
+        "date": "January 2024", 
+        "events": [
+            "Got the paper \"Optimizing Sperm Detection and Tracking in Fluids with Equalize Class Representation Augmentation\" accepted and won Distinctive Mention for MediaEval 2023 for the Medico Track."
+        ]
+    },
+    {
+        "date": "December 2023",
         "events": [
             "Won Outstanding Submmission for SCUDEM VIII 2023 - SIMIODE Challenge Using Differential Equation Modelling"
         ]
     },
     {
-        "date": "Oct 2023",
+        "date": "October 2023",
         "events": [
             "Got the paper \"Deep Learning Hierarchical Methods for Insect Pest Recognition on Plants\" accepted for SoICT 2023"
         ]
     },
     {
-        "date": "Aug 2023",
+        "date": "August 2023",
         "events": [
             "Offered for a Masters Scholarship Exchange program from NUS"
         ]
     },
     {
-        "date": "Jul 2023",
+        "date": "July 2023",
         "events": [
             "Got the paper \"SketchANIMAR: Sketch-based 3D Animal Fine-Grained Retrieval\" and \"TextANIMAR: Text-based 3D Animal Fine-Grained Retrieval\" accepted for Computers & Graphics 2023."
         ]
@@ -30,39 +56,39 @@
         ]
     },
     {
-        "date": "Mar 2023",
+        "date": "March 2023",
         "events": [
             "Placed as top 8 Finalists for the OpenAI Stack Hackathon - Lablab.ai with MyThorch"
         ]
     },
     {
-        "date": "Jan 2023",
+        "date": "January 2023",
         "events": [
             "Accepted as one of 5 HCMUS representatives for the KIT Online Spring School 2023.",
             "Awarded a full scholarship of 50M VND for the Global Developer Scholarship by MindX and Code For Vietnam Foundation."
         ]
     },
     {
-        "date": "Nov 2022",
+        "date": "November 2022",
         "events": [
             "Won Third place for GameUIT Hackathon with Trassify",
             "Got the paper \"Gamified solution to enhance students' interest in History - Immersion Learning and Gamification\" accepted for oral presentation, and awarded Best Paper at the International Student Science Forum 2022, HCMC."
         ]
     },
     {
-        "date": "Sep 2022",
+        "date": "September 2022",
         "events": [
             "Joined LEAN Social as a Software Engineer."
         ]
     },
     {
-        "date": "Jul 2022",
+        "date": "July 2022",
         "events": [
             "Started my first internship as a Software Engineering Intern at Tiki."
         ]
     },
     {
-        "date": "Aug 2021",
+        "date": "August 2021",
         "events": [
             "Accepted in for VNUHCM - University of Science, Advanced Program in Computer Science, class of 2025."
         ]
