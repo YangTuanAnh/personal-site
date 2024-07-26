@@ -15,7 +15,7 @@ const BlogCard = ({ post }: { post: any }) =>
 
     return (
         <div className="my-2">
-            <Link href={"/posts/" + post.slug} className="md:h-40 h-20 min-h-full flex" rel="noopener">
+            <Link href={"/posts/" + post.slug} className="md:h-40 min-h-full flex" rel="noopener">
                 <div className="aspect-square p-2 hidden md:block ">
                     <img src={post.data.thumbnail} alt={post.data.title} className="h-full w-full object-cover rounded-lg " />
                 </div>

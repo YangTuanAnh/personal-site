@@ -18,8 +18,8 @@ const Microblog = () => {
                                     {
                                         return (
                                             <div className="w-full mb-1.5 flex" key={it.date}>
-                                                <p className="w-32 font-semibold text-neutral-400">{it.date}</p> 
-                                                <p>{it.content}</p>    
+                                                <p className="w-40 font-semibold text-neutral-400">{it.date}</p> 
+                                                <p className="w-full">{it.content}</p>    
                                             </div>                                           
                                         )
                                     })

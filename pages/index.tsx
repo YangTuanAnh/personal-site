@@ -5,6 +5,7 @@ import Section from '../components/Section/section'
 import Link from 'next/link'
 import StyledLink from '../components/StyledLink'
 import { AiFillGithub, AiFillFacebook, AiFillLinkedin, AiFillMail  } from "react-icons/ai";
+import { FaCoffee } from "react-icons/fa"
 import SocialMediaLink from '../components/SocialMediaLink'
 const inter = Inter({ subsets: ['latin'] })
 import Banner from "/public/images/banner.png"
@@ -34,7 +35,7 @@ export default function Home()
 
       <Section delay={0.1}>
         <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-          Bio
+          Works
         </h3>
         <p className="indent-4 break-words">
           I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci</span>, and developing robust software systems, alongside a strong focus on <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">MLOps</span>.
@@ -80,23 +81,15 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2022</span>
-          <span>Interned in Fullstack Engineering at Tiki</span>
-        </div>
-        <div className="flex">
-          <span className="font-bold pr-6 ">2022</span>
-          <span>Worked at LEAN Social</span>
+          <span>Interned in Fullstack Engineering at Tiki<br/>Worked at LEAN Social</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2023</span>
-          <span>Interned in Algorithmic Design at Autonomous Inc.</span>
-        </div>
-        <div className="flex">
-          <span className="font-bold pr-6 ">2023</span>
-          <span>Offered the NUS ASEAN Master&apos;s Scholarship</span>
+          <span>Interned in Algorithmic Design at Autonomous Inc.<br/>Offered the NUS ASEAN Master&apos;s Scholarship</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2024</span>
-          <span>Worked as a Research Assistant at HySonLab & Dao HyperAI Lab<br/>Worked as an AI Engineer at Autonomous Inc.</span>
+          <span>Working as a Research Assistant at HySonLab & Dao HyperAI Lab<br/>Working as an AI Engineer at Autonomous Inc.</span>
         </div>
       </Section>
 
@@ -114,16 +107,19 @@ export default function Home()
           Reach me through
         </h3>
         <SocialMediaLink href="https://github.com/YangTuanAnh">
-          <AiFillGithub className="mr-2"/> YangTuanAnh
+          <AiFillGithub className="mr-2"/> YangTuanAnh - Github
         </SocialMediaLink>
         <SocialMediaLink href="https://www.facebook.com/tuananh.yang.73/">
-          <AiFillFacebook className="mr-2"/> Yang Tuấn Anh
+          <AiFillFacebook className="mr-2"/> Yang Tuấn Anh - Facebook
         </SocialMediaLink>
         <SocialMediaLink href="https://www.linkedin.com/in/yang-tuan-anh-375759218/">
-          <AiFillLinkedin className="mr-2"/> Yang Tuấn Anh
+          <AiFillLinkedin className="mr-2"/> Yang Tuấn Anh - Linkedin
         </SocialMediaLink>
         <SocialMediaLink href="mailto:yangtuananh2003@gmail.com" noBlank>
           <AiFillMail className="mr-2"/> yangtuananh2003@gmail.com
+        </SocialMediaLink>
+        <SocialMediaLink href="https://ko-fi.com/yangtuananh" noBlank>
+          <FaCoffee className="mr-2"/> Yang Tuấn Anh - Kofi (broke ahh bih)
         </SocialMediaLink>
 
         <div className="text-center m-6">
