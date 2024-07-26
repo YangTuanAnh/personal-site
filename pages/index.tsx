@@ -34,10 +34,10 @@ export default function Home()
 
       <Section delay={0.1}>
         <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-          Works
+          Bio
         </h3>
         <p className="indent-4 break-words">
-          I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci, and developing robust software systems, alongside a strong focus on MLOps.
+          I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci</span>, and developing robust software systems, alongside a strong focus on <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">MLOps</span>.
         </p>
         <p className="indent-4 break-words">
           Currently, I am working as a Research Assistant for  &nbsp;<StyledLink href="https://github.com/HySonLab/">HySonLab</StyledLink>&nbsp; & &nbsp;<StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.
@@ -105,7 +105,7 @@ export default function Home()
           I ♥
         </h3>
         <p className="indent-4 break-words">
-        <StyledLink href="https://github.com/dangkhoasdc/awesome-vector-database">Multimedia Retrieval</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=40riCqvRoMs">Computer Vision</StyledLink>, <StyledLink href="https://huyenchip.com/mlops/">MLOps</StyledLink>, <StyledLink href="https://www.uber.com/en-VN/blog/h3/">Databases</StyledLink>, <StyledLink href="https://oj.vnoi.info/">Competitive Programming</StyledLink>, <StyledLink href="https://hanvdao.com/">Design</StyledLink>, Music (<StyledLink href="https://youtu.be/FyG21rXCxlY">Kpop</StyledLink>, <StyledLink href="https://youtu.be/HYfkxX4PFyw">Europop</StyledLink>, <StyledLink href="https://youtu.be/WaKdPgkTZ7M">Soviet Classical Orchestral</StyledLink>, <StyledLink href="https://youtu.be/Bl-YMD6yePc">Video Game OSTs</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=L5q4uYj-gyg">Breakcore</StyledLink>, <StyledLink href="https://youtu.be/rViCS8i0JxI">played the piano years ago</StyledLink>), Languages (Vietnamese, English, Mandarin, Spanish), sharing about my idols (like these links).
+        <StyledLink href="https://github.com/dangkhoasdc/awesome-vector-database">Multimedia Retrieval</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=40riCqvRoMs">Computer Vision</StyledLink>, <StyledLink href="https://huyenchip.com/mlops/">MLOps</StyledLink>, <StyledLink href="https://www.uber.com/en-VN/blog/h3/">Databases</StyledLink>, <StyledLink href="https://oj.vnoi.info/">Competitive Programming</StyledLink>, <StyledLink href="https://hanvdao.com/">Design</StyledLink>, Music (<StyledLink href="https://youtu.be/FyG21rXCxlY">Kpop</StyledLink>, <StyledLink href="https://youtu.be/HYfkxX4PFyw">Europop</StyledLink>, <StyledLink href="https://youtu.be/WaKdPgkTZ7M">Soviet Classical Orchestral</StyledLink>, <StyledLink href="https://youtu.be/Bl-YMD6yePc">Video Game OSTs</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=L5q4uYj-gyg">Breakcore</StyledLink>, <StyledLink href="https://youtu.be/rViCS8i0JxI">played the piano years ago</StyledLink>), Languages (Vietnamese, English, Mandarin, Spanish), <StyledLink href="https://www.projectxvietnam.org/">Communities, Career Prep</StyledLink>, sharing about my idols (like these links).
         </p>
       </Section>
 

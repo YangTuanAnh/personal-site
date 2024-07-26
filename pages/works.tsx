@@ -98,7 +98,7 @@ const Works = () =>
                 </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://gdscxsab.github.io/CS101/index.html" title="GDSCxSAB CS101" thumbnail={thumbCS101}>
-                        A collaborated effort between SAB in HCMUS and HCMUS’ Google Developer Student Club to create a website on providing students with additional soft skills in Computer Science
+                        A collaborated effort between SAB in HCMUS and HCMUS&apos; Google Developer Student Club to create a website on providing students with additional soft skills in Computer Science
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
