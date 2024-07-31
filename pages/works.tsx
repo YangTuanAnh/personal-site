@@ -19,7 +19,7 @@ import thumbSCUDEM from "../public/images/works/projects/scudem.png"
 
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
-import thumbTCF from "../public/images/works/projects/thecodefoundation.png"
+import thumbS4VN from "../public/images/works/projects/s4vn.jpg"
 import thumbProjectX from "../public/images/works/projects/projectx.png"
 
 import thumbSketch from "../public/images/works/publications/sketch.png"
@@ -109,8 +109,8 @@ const Works = () =>
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
-                    <GridItem href="https://tcf-website.vercel.app/" title="The Coding Foundation" thumbnail={thumbTCF}>
-                        Learned and utilized React, Next.js and Chakra UI to design front-end mechanics. Developed jumbotron components, scroll animations, website content, creating a complete user experience.<br />
+                    <GridItem href="https://steamforvietnam.org/" title="STEAM For Vietnam" thumbnail={thumbS4VN}>
+                        Developing course curriculums, operating technical sties for live classes for CS101, CS102, ART001, Train The Trainers<br />
                     </GridItem>
                 </Section>
             </div>
