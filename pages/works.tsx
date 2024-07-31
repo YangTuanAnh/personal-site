@@ -15,6 +15,7 @@ import thumbCrashCourse from "../public/images/works/projects/crashcourse.png"
 import thumbBanner from "../public/images/banner.png"
 import thumbDictionary from "../public/images/works/projects/dictionary.png"
 import thumbSNORD from "../public/images/works/projects/snord.png"
+import thumbSCUDEM from "../public/images/works/projects/scudem.png"
 
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
@@ -54,6 +55,12 @@ const Works = () =>
                     <GridItem href="https://github.com/doraemonidol/SNORD" title="SNORD: Smart Nicotine Oversight and Regulation Device" thumbnail={thumbSNORD}>
                         SNORD is an intelligent electronic cigarette product designed to assist users in monitoring and modifying their smoking habits.<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>Flutter, Golang, Firebase, GCP, Docker</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://www.youtube.com/watch?v=rrICk3Ldjtk" title="SCUDEM 2023 - Problem A: Kangaroo Care" thumbnail={thumbSCUDEM}>
+                        Using differential equation modelling for Kangaroo Mother Care interactions, finding out important factors of KMC and impacts of irregular care patterns. Won Outstanding Award and placed 4th out of 30+. <br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>Python (numpy, matplotlib, scipy, odeint), Latex (Beamer)</em></span>
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
