@@ -41,7 +41,7 @@ export default function Home()
           I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci</span>, and developing robust software systems, alongside a strong focus on <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">MLOps</span>.
         </p>
         <p className="indent-4 break-words">
-          Currently, I am working as a Research Assistant for  &nbsp;<StyledLink href="https://github.com/HySonLab/">HySonLab</StyledLink>&nbsp; & &nbsp;<StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.
+          Currently, I am working as a Research Assistant for <StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.
         </p>
         <div className="flex justify-center my-6 gap-4">
           <Link href="/works">
@@ -89,7 +89,7 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2024</span>
-          <span>Working as a Research Assistant at HySonLab & Dao HyperAI Lab<br/>Working as an AI Engineer at Autonomous Inc.</span>
+          <span>Working as a Research Assistant Dao HyperAI Lab<br/>Working as an AI Engineer at Autonomous Inc.</span>
         </div>
       </Section>
 
