@@ -47,7 +47,7 @@ const Works = () =>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/htamlive/MnemeAI---Smart-Note-Assistant" title="MnemeAI - Smart Note Assistant" thumbnail={thumbMnemeAI}>
-                    Smart-Note-Assistant is a web application designed to assist users with note-taking, task management, and calendar integration. It leverages various APIs to provide a seamless user experience.<br/>
+                    Smart-Note-Assistant is a web application designed to assist users with note-taking, task management, and calendar integration. It leverages various APIs to provide a seamless user experience. Won 4th place for HCMUS AIInnovation 2024<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>Google Tasks, Telegram, Notion APIs, Celery, Langchain, Redis, PostgreSQL, pgvector, Flask, OpenAI Embeddings, Llama 3, AWS S3, Docker, Caddy</em></span>
                     </GridItem>
                 </Section>
