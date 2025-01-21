@@ -16,6 +16,7 @@ import thumbBanner from "../public/images/banner.png"
 import thumbDictionary from "../public/images/works/projects/dictionary.png"
 import thumbSNORD from "../public/images/works/projects/snord.png"
 import thumbSCUDEM from "../public/images/works/projects/scudem.png"
+import thumbMCM from "../public/images/works/projects/tennisball.jpg"
 
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
@@ -85,6 +86,12 @@ const Works = () =>
                     <GridItem href="https://lablab.ai/event/openai-hackathon/hcmuwus/mythorch-revolutionary-documents-interaction" title="MyThorch" thumbnail={thumbThorch}>
                         A revolutionary document interaction app that leverages user behavior to embed vectors and store them in a Redis vector database. This process creates a long-term memory AI that truly understands the user&apos;s needs and preferences.<br />
                         <span><b className="text-pink-600">Tech stack:</b> <em>React, NodeJS, Flask, Redis, GPT-3</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://drive.google.com/file/d/1IJlT7H6YRhYjPTklHBUCgcnVtFJ1cdCP/view?usp=sharing" title="Unlocking Tennis Dynamics: Analyzing Momentum, Predicting Swings and Beyond" thumbnail={thumbMCM}>
+                        A comprehensive framework for modeling and predicting tennis match dynamics using scoring data, submission for the Mathematical Contest in Modeling 2024.<br />
+                        <span><b className="text-pink-600">Tech stack:</b> <em>sklearn, Pytorch</em></span>
                     </GridItem>
                 </Section>
             </div>
