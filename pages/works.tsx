@@ -52,7 +52,7 @@ const Works = () =>
                 <Section delay={0.2}>
                     <GridItem href="https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view?usp=sharing" title="Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction: Investigating the Impact of the Francis Scott Key Bridge Collapse on Baltimore Traffic and Bus Route Optimization" thumbnail={thumbLabelprop}>
                     A comprehensive analysis of Baltimore&apos;s transportation challenges, focusing on the impact of the Francis Scott Key Bridge collapse and public transit optimization, submission for the Interdisciplinary Contest in Modeling 2025.<br/>
-                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, scipy, LASER, HuggingFace Transformers</em></span>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, Networkx, Geopandas, OSMnx</em></span>
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
