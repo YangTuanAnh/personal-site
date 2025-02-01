@@ -51,7 +51,7 @@ const Works = () =>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view?usp=sharing" title="Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction: Investigating the Impact of the Francis Scott Key Bridge Collapse on Baltimore Traffic and Bus Route Optimization" thumbnail={thumbLabelprop}>
-                    A comprehensive analysis of Baltimore's transportation challenges, focusing on the impact of the Francis Scott Key Bridge collapse and public transit optimization, submission for the Interdisciplinary Contest in Modeling 2025.<br/>
+                    A comprehensive analysis of Baltimore&apos;s transportation challenges, focusing on the impact of the Francis Scott Key Bridge collapse and public transit optimization, submission for the Interdisciplinary Contest in Modeling 2025.<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, scipy, LASER, HuggingFace Transformers</em></span>
                     </GridItem>
                 </Section>
@@ -226,7 +226,7 @@ const Works = () =>
                 </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://youtu.be/hyYEWD2tYzg" title="SBShuttle" thumbnail={thumbSBShuttle}>
-                        A package-delivery service based on Tiki’s Transportation services, top-30 semi-finalist submission for Tiki Hacking Trail 2022<br/>
+                        A package-delivery service based on Tiki&apos;s Transportation services, top-30 semi-finalist submission for Tiki Hacking Trail 2022<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>TiniApp, TiniStudio</em></span>
                     </GridItem>
                 </Section>
