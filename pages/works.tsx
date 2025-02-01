@@ -145,7 +145,7 @@ const Works = () =>
                     <GridItem href="https://github.com/HySonLab/MultiscaleHSI"
                         title="MOB-GCN: Multiscale Object-Based Graph Neural Network for Hyperspectral Image Segmentation and Classification"
                         thumbnail={thumbMOBGCN}>
-                        Multiscale spectral graph neural networks for hyperspectral imaging. The central aim of this study is to enhance feature extraction and classification results by leveraging multiscale object-based image analysis (OBIA). This work is done during research internship under the supervision of Dr. Truong-Son Hy in the Department of Computer Science, Univerity of Alabama at Birmingham, United States.
+                        This work is done during research internship under the supervision of Dr. Truong-Son Hy in the Department of Computer Science, Univerity of Alabama at Birmingham, United States.
                     </GridItem>
                 </Section>
                 <Section delay={0.2}>
