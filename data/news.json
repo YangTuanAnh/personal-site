@@ -1,5 +1,11 @@
 [
     {
+        "date": "Feb 2025", 
+        "events": [
+            "Released \"MOB-GCN: Multiscale Object-Based Graph Neural Network for Hyperspectral Image Segmentation and Classification\"."
+        ]
+    },
+    {
         "date": "Aug 2024", 
         "events": [
             "Promoted to AI Engineer at Autonomous Inc."
@@ -22,7 +28,7 @@
         "date": "March 2024", 
         "events": [
             "Placed at Top 8 for the GDSC Hackathon - Southern Round.",
-            "Started work as a Research Assistant under Dao HyperAI Lab"
+            "Started work as a Research Assistant under HySonLab and Dao HyperAI Lab"
         ]
     },
     {

@@ -3,6 +3,8 @@ import Section from "../components/Section/section";
 
 import thumbTest from "../public/images/waffle_logo.png";
 
+import thumbLabelprop from "../public/images/works/projects/labelprop.png"
+import thumbBacktranslation from "../public/images/works/projects/backtranslation.png"
 import thumbMnemeAI from "../public/images/works/projects/mnemeai.png"
 import thumbYOLOCLIP from "../public/images/works/projects/yoloclip.png"
 import thumbFoodfeed from "../public/images/works/projects/foodfeed.png"
@@ -23,6 +25,7 @@ import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbS4VN from "../public/images/works/projects/s4vn.jpg"
 import thumbProjectX from "../public/images/works/projects/projectx.png"
 
+import thumbMOBGCN from "../public/images/works/publications/mobgcn.png"
 import thumbSketch from "../public/images/works/publications/sketch.png"
 import thumbText from "../public/images/works/publications/text.png"
 import thumbSperm from "../public/images/works/publications/medico.png"
@@ -47,8 +50,20 @@ const Works = () =>
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
                 <Section delay={0.2}>
+                    <GridItem href="https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view?usp=sharing" title="Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction: Investigating the Impact of the Francis Scott Key Bridge Collapse on Baltimore Traffic and Bus Route Optimization" thumbnail={thumbLabelprop}>
+                    A comprehensive analysis of Baltimore's transportation challenges, focusing on the impact of the Francis Scott Key Bridge collapse and public transit optimization, submission for the Interdisciplinary Contest in Modeling 2025.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, scipy, LASER, HuggingFace Transformers</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://yangtuananh.notion.site/Low-Resource-Chinese-Han-Vietnamese-Translation-with-Multilingual-T5-and-Backtranslation-171304bfa54a804cbbc5dc51d0932bc8" title="Low-Resource Chinese-Han Vietnamese Translation with Multilingual T5 and Backtranslation" thumbnail={thumbBacktranslation}>
+                        CS418 Final project - a fine-tuned mT5 model for Chinese-HanViet translation with sampling-based backtranslation. Proposed a corpus construction strategy using LASER embeddings and Hungarian Matching to extract parallel sentences from bilingual news sources.<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, scipy, LASER, HuggingFace Transformers</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
                     <GridItem href="https://github.com/htamlive/MnemeAI---Smart-Note-Assistant" title="MnemeAI - Smart Note Assistant" thumbnail={thumbMnemeAI}>
-                    Smart-Note-Assistant is a web application designed to assist users with note-taking, task management, and calendar integration. It leverages various APIs to provide a seamless user experience. Won 4th place for HCMUS AIInnovation 2024<br/>
+                    Smart-Note-Assistant is a web application designed to assist users with note-taking, task management, and calendar integration. It leverages various APIs to provide a seamless user experience. Won 4th place for HCMUS AIInnovation 2024.<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>Google Tasks, Telegram, Notion APIs, Celery, Langchain, Redis, PostgreSQL, pgvector, Flask, OpenAI Embeddings, Llama 3, AWS S3, Docker, Caddy</em></span>
                     </GridItem>
                 </Section>
@@ -126,6 +141,13 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/HySonLab/MultiscaleHSI"
+                        title="MOB-GCN: Multiscale Object-Based Graph Neural Network for Hyperspectral Image Segmentation and Classification"
+                        thumbnail={thumbMOBGCN}>
+                        Multiscale spectral graph neural networks for hyperspectral imaging. The central aim of this study is to enhance feature extraction and classification results by leveraging multiscale object-based image analysis (OBIA). This work is done during research internship under the supervision of Dr. Truong-Son Hy in the Department of Computer Science, Univerity of Alabama at Birmingham, United States.
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://2023.multimediaeval.com/paper15.pdf"
                         title="Optimizing Sperm Detection and Tracking in Fluids

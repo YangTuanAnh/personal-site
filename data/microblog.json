@@ -1,5 +1,20 @@
 [
     {
+        "title": "2025",
+        "data": [
+            {"date": "Jan 31",      "content": "My birthday! 🎈🎂🍰"},
+            {"date": "Jan 29",      "content": "Lunear New Year, submitted NUS Master's Application."},
+            {"date": "Jan 27",      "content": "Submitted to MCM/ICM 2025 - solved ICM Problem D."},
+            {"date": "Jan 24",      "content": "Retook the IELTS on the 22nd and 23rd, got 7.5 IELTS."},
+            {"date": "Jan 19",      "content": "STEAM For Vietnam Robotics Demo Day."},
+            {"date": "Jan 18",      "content": "Deadlifted 106kg - new PR!"},
+            {"date": "Jan 13",      "content": "NLP Finals Presentation."},
+            {"date": "Jan 11",      "content": "Got the Distinctive University-level Sinh Viên 5 Tốt award."},
+            {"date": "Jan 8",       "content": "Got the City-level Sinh Viên 5 Tốt award, rode the metro."},
+            {"date": "Jan 1",       "content": "New years"}
+        ]
+    },
+    {
         "title": "2024",
         "data": [
             {"date": "Dec 31",      "content": "Finals, New Years Eve."},
