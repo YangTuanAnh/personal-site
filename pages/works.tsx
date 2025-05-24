@@ -25,6 +25,8 @@ import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbS4VN from "../public/images/works/projects/s4vn.jpg"
 import thumbProjectX from "../public/images/works/projects/projectx.png"
 
+import thumbProto from "../public/images/works/publications/protocluster.png"
+import thumbMDEC from "../public/images/works/publications/depthfusion.png"
 import thumbMOBGCN from "../public/images/works/publications/mobgcn.png"
 import thumbSketch from "../public/images/works/publications/sketch.png"
 import thumbText from "../public/images/works/publications/text.png"
@@ -141,6 +143,20 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-2 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://dx.doi.org/10.2139/ssrn.5258950"
+                        title="Shrec 2025: Protein Surface Shape Retrieval Including Electrostatic Potential"
+                        thumbnail={thumbProto}>
+                        Presented ProtoCluster - A multi-stage graph neural network classification pipeline for protein meshes.
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://arxiv.org/abs/2504.17787"
+                        title="The Fourth Monocular Depth Estimation Challenge"
+                        thumbnail={thumbMDEC}>
+                        Presented DepthFusion - Ensemble-based Monocular Depth Estimation with Diffusion and Transformer Fusion via Felzenszwalb-Guided Refinement.
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/HySonLab/MultiscaleHSI"
                         title="MOB-GCN: Multiscale Object-Based Graph Neural Network for Hyperspectral Image Segmentation and Classification"
