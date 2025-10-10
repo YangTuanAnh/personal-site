@@ -10,9 +10,9 @@ const GridItem = ({children, href, title, thumbnail}:{children:any, href:string,
                         placeholder="blur"
                         loading="lazy" 
                         className="rounded-lg mb-6 w-full aspect-video object-cover object-center hover:scale-110 transition duration-150 hover:shadow-lg dark:shadow-highlight/25"/>
-                <h3 >{title}</h3>
+                <h4 className="font-bold text-sm mb-2">{title}</h4>
             </a>
-            <p>{children}</p>
+            <p className="text-xs">{children}</p>
         </div>
     )
 }

@@ -16,7 +16,7 @@ export default function Home()
     <div className="mt-10">
       <Image src={Banner} alt="Minecraft base" className="w-full aspect-[7/2] object-cover object-center"/>
       <div className="rounded-lg dark:bg-neutral-700 bg-neutral-200 p-3 my-6 text-center">
-        Delusion. Convince yourself. - Jinkx Monsoon
+        Delusion. Convince yourself.
       </div>
 
       <main className="md:flex">
@@ -38,10 +38,7 @@ export default function Home()
           Works
         </h3>
         <p className="indent-4 break-words">
-          I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I&apos;m currently a senior at &nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">Multimedia Retrieval, Image Understanding, Graph Neural Networks for AI4Sci</span>, and developing robust software systems, alongside a strong focus on <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">MLOps</span>.
-        </p>
-        <p className="indent-4 break-words">
-          Currently, I am working as a Research Assistant for  &nbsp;<StyledLink href="https://github.com/HySonLab/">HySonLab</StyledLink>&nbsp; & &nbsp;<StyledLink href="https://daolab.weebly.com/">Dao HyperAI Lab</StyledLink>, and as an AI Engineer for &nbsp;<StyledLink href="https://www.autonomous.ai/">Autonomous Inc</StyledLink>.
+          I grew up in Ho Chi Minh City, Vietnam, I&apos;m Vietnamese-Taiwanese, and I graduated from the&nbsp;<StyledLink href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</StyledLink>&nbsp;under the Advanced Program of Computer Science. I&apos;m pursuing positions in both industry and academia within Software Engineering and Data Science. My interests include <span className="transition ease-in-out delay-150 brightness-75 dark:brightness-100 text-highlight hover:underline hover:underline-offset-4">Efficient Computing, Computer Vision, Graph Neural Networks, AI4Sci (Geospatial, Remote Sensing, Biomedical)</span>, and developing robust software systems.
         </p>
         <div className="flex justify-center my-6 gap-4">
           <Link href="/works">
@@ -85,11 +82,15 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2023</span>
-          <span>Interned in Algorithmic Design at Autonomous Inc.<br/>Offered the NUS ASEAN Master&apos;s Scholarship</span>
+          <span>Interned in Algorithmic Design at Autonomous.ai</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2024</span>
-          <span>Working as a Research Assistant Dao HyperAI Lab<br/>Working as an AI Engineer at Autonomous Inc.</span>
+          <span>Worked as an AI Engineer at Autonomous.ai</span>
+        </div>
+        <div className="flex">
+          <span className="font-bold pr-6 ">2025</span>
+          <span>Offered the NUS ASEAN Master&apos;s Scholarship.<br/>Working as a Research Assistant Dao HyperAI Lab.</span>
         </div>
       </Section>
 
@@ -117,9 +118,6 @@ export default function Home()
         </SocialMediaLink>
         <SocialMediaLink href="mailto:yangtuananh2003@gmail.com" noBlank>
           <AiFillMail className="mr-2"/> yangtuananh2003@gmail.com
-        </SocialMediaLink>
-        <SocialMediaLink href="https://ko-fi.com/yangtuananh" noBlank>
-          <FaCoffee className="mr-2"/> Yang Tuấn Anh - Kofi (broke ahh bih)
         </SocialMediaLink>
 
         <div className="text-center m-6">

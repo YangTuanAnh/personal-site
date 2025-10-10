@@ -19,12 +19,15 @@ import thumbDictionary from "../public/images/works/projects/dictionary.png"
 import thumbSNORD from "../public/images/works/projects/snord.png"
 import thumbSCUDEM from "../public/images/works/projects/scudem.png"
 import thumbMCM from "../public/images/works/projects/tennisball.jpg"
+import thumbENTRep from "../public/images/works/projects/entrep.png"
 
 import thumbLEAN from "../public/images/works/projects/lean.png"
 import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbS4VN from "../public/images/works/projects/s4vn.jpg"
 import thumbProjectX from "../public/images/works/projects/projectx.png"
 
+import thumbHover from "../public/images/works/publications/unet_hovergnn.png"
+import thumbCLEF from "../public/images/works/publications/fungiclef.png"
 import thumbProto from "../public/images/works/publications/protocluster.png"
 import thumbMDEC from "../public/images/works/publications/depthfusion.png"
 import thumbMOBGCN from "../public/images/works/publications/mobgcn.png"
@@ -50,9 +53,15 @@ const Works = () =>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Projects
             </h3>
-            <div className="grid md:grid-cols-2 gap-x-12">
+            <div className="grid md:grid-cols-3 gap-x-8">
                 <Section delay={0.2}>
-                    <GridItem href="https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view?usp=sharing" title="Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction: Investigating the Impact of the Francis Scott Key Bridge Collapse on Baltimore Traffic and Bus Route Optimization" thumbnail={thumbLabelprop}>
+                    <GridItem href="https://github.com/YangTuanAnh/ENTRep" title="Fusion at the Foregut: CLIP-Based Prototypical Learning with DINOv2 Refinement for Endoscopic Image Analysis" thumbnail={thumbENTRep}>
+                    A multimodal framework for anatomical site classification and retrieval in endoscopic images, integrating CLIP-based prototypical learning with DINOv2 refinement, submission for the ENTRep Challenge at ACMMM 2025<br/>
+                        <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, HuggingFace Transformers</em></span>
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view?usp=sharing" title="Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction" thumbnail={thumbLabelprop}>
                     A comprehensive analysis of Baltimore&apos;s transportation challenges, focusing on the impact of the Francis Scott Key Bridge collapse and public transit optimization, submission for the Interdisciplinary Contest in Modeling 2025.<br/>
                         <span><b className="text-pink-600">Tech stack:</b> <em>PyTorch, Networkx, Geopandas, OSMnx</em></span>
                     </GridItem>
@@ -116,7 +125,7 @@ const Works = () =>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Collaborations
             </h3>
-            <div className="grid md:grid-cols-2 gap-x-12">
+            <div className="grid md:grid-cols-3 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://www.projectxvietnam.org/" title="Project X Vietnam Tech Community" thumbnail={thumbProjectX}>
                         Connecting tech startups with young Vietnamese talents and offer mentorship, career orientations, and technical/soft-skills training through events/workshops and building communities for high-caliber students.
@@ -142,7 +151,21 @@ const Works = () =>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Publications & Appearances
             </h3>
-            <div className="grid md:grid-cols-2 gap-x-12">
+            <div className="grid md:grid-cols-3 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://github.com/YangTuanAnh/UNet-HoVerGNN"
+                        title="UNet-HoVerGNN: Structured Graph Integration into HoVerNet for Enhanced Nuclei Segmentation and Classification"
+                        thumbnail={thumbHover}>
+                        A hybrid framework for nuclei instance segmentation and classification that combines CNN-based segmentation with graph-based reasoning. Presented at ICMV 2025.
+                    </GridItem>
+                </Section>
+                <Section delay={0.2}>
+                    <GridItem href="https://ceur-ws.org/Vol-4038/paper_263.pdf"
+                        title="Mushroom for improvement: prototypical few-shot learning with multimodal fungal features"
+                        thumbnail={thumbCLEF}>
+                        Mushroom for Improvement: Prototypical Few-Shot Learning with Multimodal Fungal Features - FungiCLEF25 @ CVPR-FGVC & LifeCLEF.
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://dx.doi.org/10.2139/ssrn.5258950"
                         title="Shrec 2025: Protein Surface Shape Retrieval Including Electrostatic Potential"
@@ -197,7 +220,7 @@ const Works = () =>
             <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
                 Old works
             </h3>
-            <div className="grid md:grid-cols-2 gap-x-12">
+            <div className="grid md:grid-cols-3 gap-x-12">
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/midterms_coffee_app" title="Coffee Ordering App" thumbnail={thumbCoffeeApp}>
                         A Cofee ordering app made with Flutter - CS426 Midterms @ APCS HCMUS<br/>
@@ -265,17 +288,6 @@ const Works = () =>
                     </GridItem>
                 </Section>
             </div>
-            <h3 className="underline underline-offset-8 mb-4 decoration-neutral-600 decoration-4">
-                Graphic Design
-            </h3>
-            <Section delay={0.2}>
-                <Image src={thumbGraphics} alt="Graphic Design" className="mx-auto md:w-1/2 rounded-lg hover:scale-110 transition duration-150 hover:shadow-lg dark:shadow-highlight/25 mb-6" />
-                <h3 className="hover:text-highlight transition duration-150 text-center">Collage</h3>
-                <p className="text-center">
-                    Some posts I&apos;ve designed for organizations and personal projects.<br/>
-                    <span><b className="text-pink-600">Tools:</b> <em>Adobe Illustrator, Figma, Blender</em></span>
-                </p>
-            </Section>
         </div>
     )
 }
