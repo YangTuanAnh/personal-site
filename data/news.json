@@ -1,12 +1,32 @@
 [
     {
+        "date": "August 2025", 
+        "events": [
+            "Won 3rd, 5th, 6th place for the ENTRep Challenge at ACMMM 2025",
+            "Got the paper \"UNet-HoVerGNN: Structured Graph Integration into HoVerNet for Enhanced Nuclei Segmentation and Classification\" accepted for ICMV 2025",
+            "Completed APCS Thesis Defense with outstanding reviews!"
+        ]
+    },
+    {
+        "date": "July 2025", 
+        "events": [
+            "Offered a position as a founding engineer at Zalos."
+        ]
+    },
+    {
+        "date": "May 2025", 
+        "events": [
+            "Received offer and scholarship for NUS Masters in Computing for AI Specialization."
+        ]
+    },
+    {
         "date": "Feb 2025", 
         "events": [
             "Released \"MOB-GCN: Multiscale Object-Based Graph Neural Network for Hyperspectral Image Segmentation and Classification\"."
         ]
     },
     {
-        "date": "Aug 2024", 
+        "date": "August 2024", 
         "events": [
             "Promoted to AI Engineer at Autonomous Inc."
         ]
