@@ -2,6 +2,14 @@
     {
         "title": "2025",
         "data": [
+            {"date": "October 30",      "content": "150kg deadlift PR!"},
+            {"date": "October 28",      "content": "AK a Div 4 contest on Codeforces."},
+            {"date": "October 26",      "content": "Judged GDGoC HCMUS recruitment hackathon."},
+            {"date": "October 25",      "content": "Saw wrestling at Halloween event!"},
+            {"date": "October 18",      "content": "Did Meta Hacker Cup Round 1."},
+            {"date": "October 10",      "content": "Thesis poster presented at FIT 30 year anniversary."},
+            {"date": "October 6",       "content": "Renewed student card, got graduation results."},
+
             {"date": "September 29",    "content": "Talked at HCMUS seminar about thesis for NCKH session."},
             {"date": "September 20",    "content": "Had Indian food, ran evals after AIC."},
             {"date": "September 10",    "content": "Invited to speak at HCMUS K25 event about GDSC."},
