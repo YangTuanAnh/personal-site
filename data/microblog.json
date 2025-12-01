@@ -2,6 +2,12 @@
     {
         "title": "2025",
         "data": [
+            {"date": "November 29",     "content": "Saw the Meta AI Popup cafe, climbed at new place."},
+            {"date": "November 23",     "content": "Saw Wicked For Good then went out for Chicken Plus."},
+            {"date": "November 20",     "content": "Did AWS DevOps migration as a side gig, so exhausting."},
+            {"date": "November 9",      "content": "Saw a musical class recital, very cool."},
+            {"date": "November 2",      "content": "Presented at a Student Research Workshop with thesis, won 2nd place!"},
+
             {"date": "October 30",      "content": "150kg deadlift PR!"},
             {"date": "October 28",      "content": "AK a Div 4 contest on Codeforces."},
             {"date": "October 26",      "content": "Judged GDGoC HCMUS recruitment hackathon."},
