@@ -2,6 +2,17 @@
     {
         "title": "2025",
         "data": [
+            {"date": "December 31",     "content": "Finished the mosiacs for a birthday gift, new year's dinner party."},
+            {"date": "December 30",     "content": "Submitted NUS Masters applications, went to a mosiac workshop, overnight coffee."},
+            {"date": "December 27",     "content": "Hozo City Fest, interactive art exhibition."},
+            {"date": "December 23",     "content": "6 out of 8 problems on a Div 3 on Codeforces."},
+            {"date": "December 21",     "content": "PocketMe art exhiition, saw a rerun of My Neighbor Totoro."},
+            {"date": "December 20",     "content": "FIT Graduation ceremony!"},
+            {"date": "December 15",     "content": "Did 500 bodyweight squats in a row."},
+            {"date": "December 14",     "content": "Went to my first anime convention at Hobby Horizon."},
+            {"date": "December 6",      "content": "Graduation day, GDG Devfest, saw a wrestling match"},
+            {"date": "December 1",      "content": "Learning how to do a cartwheel."},
+            
             {"date": "November 29",     "content": "Saw the Meta AI Popup cafe, climbed at new place."},
             {"date": "November 23",     "content": "Saw Wicked For Good then went out for Chicken Plus."},
             {"date": "November 20",     "content": "Did AWS DevOps migration as a side gig, so exhausting."},
