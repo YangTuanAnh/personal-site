@@ -25,7 +25,7 @@ export default function Home()
             Yang Tuấn Anh 
           </h2>
           <p>
-            APCS21 @ VNUHCM - University of Science
+            APCS21 @ VNUHCM - University of Science, MComp (CS Specialization) - National University of Singapore
           </p>
         </div>
         <div className="shrink-0 mt-8 md:mt-0 md:ml-6 text-center">
@@ -70,27 +70,31 @@ export default function Home()
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2018</span>
-          <span>Started high school at the VNU-HCM High school for the Gifted</span>
+          <span>Started high school @ VNU-HCM High school for the Gifted</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2021</span>
-          <span>Started Bachelor&apos;s degree in Computer Science at the VNUHCM - University of Science, Advanced Program in Computer Science</span>
+          <span>Started Bachelor&apos;s degree in Computer Science @ HCMUS, Advanced Program in Computer Science</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2022</span>
-          <span>Interned in Fullstack Engineering at Tiki<br/>Worked at LEAN Social</span>
+          <span>Interned in Fullstack Engineering @ Tiki<br/>Worked @ LEAN Social</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2023</span>
-          <span>Interned in Algorithmic Design at Autonomous.ai</span>
+          <span>Interned in Algorithmic Design @ Autonomous.ai</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2024</span>
-          <span>Worked as an AI Engineer at Autonomous.ai</span>
+          <span>Worked as an AI Engineer @ Autonomous.ai<br/>Working as a Research Intern @ HySonLab - UAB.</span>
         </div>
         <div className="flex">
           <span className="font-bold pr-6 ">2025</span>
-          <span>Offered the NUS ASEAN Master&apos;s Scholarship.<br/>Working as a Research Assistant Dao HyperAI Lab.</span>
+          <span>Worked as a Founding Engineer @ Zalos</span>
+        </div>
+        <div className="flex">
+          <span className="font-bold pr-6 ">2026</span>
+          <span>Started Master&apos;s degree in Computer Science @ NUS <br/>Working as a Research Intern @ Artificial Scientific Intelligence Lab - NUS.</span>
         </div>
       </Section>
 
@@ -99,7 +103,7 @@ export default function Home()
           I ♥
         </h3>
         <p className="indent-4 break-words">
-        <StyledLink href="https://github.com/dangkhoasdc/awesome-vector-database">Multimedia Retrieval</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=40riCqvRoMs">Computer Vision</StyledLink>, <StyledLink href="https://huyenchip.com/mlops/">MLOps</StyledLink>, <StyledLink href="https://www.uber.com/en-VN/blog/h3/">Databases</StyledLink>, <StyledLink href="https://oj.vnoi.info/">Competitive Programming</StyledLink>, <StyledLink href="https://hanvdao.com/">Design</StyledLink>, Minecraft (one of my proudest builds 👆), Music (<StyledLink href="https://youtu.be/FyG21rXCxlY">Kpop</StyledLink>, <StyledLink href="https://youtu.be/HYfkxX4PFyw">Europop</StyledLink>, <StyledLink href="https://youtu.be/WaKdPgkTZ7M">Soviet Classical Orchestral</StyledLink>, <StyledLink href="https://youtu.be/Bl-YMD6yePc">Video Game OSTs</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=L5q4uYj-gyg">Breakcore</StyledLink>, <StyledLink href="https://youtu.be/rViCS8i0JxI">played the piano years ago</StyledLink>), Languages (Vietnamese, English, Mandarin, Spanish), <StyledLink href="https://www.projectxvietnam.org/">Communities, Career Prep</StyledLink>, sharing about my idols (like these links).
+        <StyledLink href="https://doi.org/10.1117/12.3094417">Graph Neural Networks</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=40riCqvRoMs">Computer Vision</StyledLink>, <StyledLink href="https://huyenchip.com/mlops/">MLOps</StyledLink>, <StyledLink href="https://www.uber.com/en-VN/blog/h3/">Databases</StyledLink>, <StyledLink href="https://codeforces.com/profile/yanglake_">Competitive Programming</StyledLink>, Minecraft (one of my proudest builds 👆), Music (<StyledLink href="https://youtu.be/FyG21rXCxlY">Kpop</StyledLink>, <StyledLink href="https://youtu.be/HYfkxX4PFyw">Europop</StyledLink>, <StyledLink href="https://youtu.be/WaKdPgkTZ7M">Soviet Classical Orchestral</StyledLink>, <StyledLink href="https://youtu.be/Bl-YMD6yePc">Video Game OSTs</StyledLink>, <StyledLink href="https://www.youtube.com/watch?v=L5q4uYj-gyg">Breakcore</StyledLink>, <StyledLink href="https://youtu.be/rViCS8i0JxI">played the piano years ago</StyledLink>), Languages (Vietnamese, English, Mandarin, Spanish), Powerlifting, <StyledLink href="https://www.projectxvietnam.org/">Communities, Career Prep</StyledLink>, sharing about my idols (like these links).
         </p>
       </Section>
 
@@ -128,7 +132,6 @@ export default function Home()
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </button>
-            <p className="text-sm my-1.5 text-neutral-500">(*incoherent bilingual utterances)</p>
           </Link>
         </div>
       </Section>

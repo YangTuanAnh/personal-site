@@ -26,6 +26,7 @@ import thumbCS101 from "../public/images/works/projects/cs101.png"
 import thumbS4VN from "../public/images/works/projects/s4vn.jpg"
 import thumbProjectX from "../public/images/works/projects/projectx.png"
 
+import thumbHalfway from "../public/images/works/publications/halfway.png"
 import thumbHover from "../public/images/works/publications/unet_hovergnn.png"
 import thumbCLEF from "../public/images/works/publications/fungiclef.png"
 import thumbProto from "../public/images/works/publications/protocluster.png"
@@ -152,6 +153,13 @@ const Works = () =>
                 Publications & Appearances
             </h3>
             <div className="grid md:grid-cols-3 gap-x-12">
+                <Section delay={0.2}>
+                    <GridItem href="https://arxiv.org/abs/2603.14832"
+                        title="Halfway to 3D: Ensembling 2.5D and 3D Models for Robust COVID-19 CT Diagnosis"
+                        thumbnail={thumbHalfway}>
+                        A deep learning framework for COVID-19 detection and disease classification from chest CT scans that integrates both 2.5D and 3D representations to capture complementary slice-level and volumetric information. Presented at CVPRW 2026.
+                    </GridItem>
+                </Section>
                 <Section delay={0.2}>
                     <GridItem href="https://github.com/YangTuanAnh/UNet-HoVerGNN"
                         title="UNet-HoVerGNN: Structured Graph Integration into HoVerNet for Enhanced Nuclei Segmentation and Classification"

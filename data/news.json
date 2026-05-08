@@ -1,5 +1,18 @@
 [
     {
+        "date": "April 2026", 
+        "events": [
+            "Offered for the Master's in Computing (CS Specialization) at NUS",
+            "Joining the Artificial Scientific Intelligence Lab at NUS"
+        ]
+    },
+    {
+        "date": "March 2026", 
+        "events": [
+            "Won 2nd, 3rd place for the PHAROS-AIF-MIH Workshop Challenge at CVPRW 2026"
+        ]
+    },
+    {
         "date": "August 2025", 
         "events": [
             "Won 3rd, 5th, 6th place for the ENTRep Challenge at ACMMM 2025",
