@@ -134,6 +134,8 @@ export default function Home()
             </button>
           </Link>
         </div>
+
+        <img className="mx-auto p-6" src="https://brainmade.org/88x31-light.png"/>
       </Section>
     </div>
   )
