@@ -1,0 +1,116 @@
+---
+icon: "🔢"
+title: "Thi Toán Mô Hình có gì vui?"
+desc: "Ba lần dự thi MCM/ICM của mình vào 2023, 2024, 2025."
+publishedAt: "2026-06-07"
+thumbnail: "/images/posts/mcm_icm/comap.webp"
+---
+
+# Giới thiệu MCM/ICM
+
+MCM/ICM là cuộc thi toán mô hình do tổ chức COMAP (Consortium for Mathematics and its Applications) tổ chức hằng năm. MCM viết tắt cho “The Mathematical Contest in Modeling” (mô hình hóa toán), còn ICM là “The Interdisciplinary Contest in Modeling” (mô hình hóa liên ngành). Mặc dù tổ chức ở Mỹ, cuộc thi cực kỳ nổi tiếng tại Trung Quốc, và thường xuyên có các team Trung Quốc đạt giải. Bắt đầu từ 2025, HCMUS mới tổ chức chọn đội tuyển dự thi.
+
+Trich dịch từ website COMAP [1],
+
+Mathematical Contest in Modeling (MCM) and Interdisciplinary Contest in Modeling (ICM), do COMAP tổ chức, là cuộc thi quốc tế dành cho học sinh trung học và sinh viên bậc cử nhân. Cuộc thi yêu cầu các đội thi 3 người phải phân tích, mô hình hóa, giải quyết và trình bày kết quả nghiên cứu cho một vấn đề ứng dụng mở. Trong 2 cuộc thi này, kỹ năng nghiên cứu, phân tích, ứng dụng đều quan trong bằng khả năng quản lý thời gian và chọn bài toán phù hợp.
+
+Đội thi 3 người sẽ phải giải quyết 1 trong 6 loại bài toán trong lúc cuộc thi diễn ra vào cuối tuần.
+
+- MCM Problem A (continuous - giải tích, tối ưu)
+- MCM Problem B (discrete - toán rời rạc, thuật toán)
+- MCM Problem C (data insights - xác suất thống kê, học máy)
+- ICM Problem D (operations research/network science - vận trù học)
+- ICM Problem E (sustainability - môi trường)
+- ICM Problem F (policy - chính sách)
+
+Bản chất cuộc thi là hackathon nhưng viết paper trong vòng 5 ngày. Dù chỉ 5 ngày, thường một bài nộp đạt giải luôn đạt chất lượng cao và thậm chí có thể nộp tập chí. Để đạt được hiệu quả cao nhất trong khi thi, một đội thi nên bao gồm 1 Mathematician để lead team và viết bài, 1 Physicist để thiết kế mô hình, và 1 Computer Scientist để chạy thí nghiệm. Đội hình này đẹp để thi cả 3 track MCM, và chọn được bất cứ đề nào hợp mình hơn thay vì chốt trước track. Năm thi 2025, tụi mình phải đổi từ MCM Problem C sang ICM Problem D vì bài không hợp team.
+
+Tại sao nên thi MCM/ICM? Nếu bạn có kinh nghiệm nghiên cứu hoặc kinh nghiệm thi hackathon thì đây là giao thoa thú vị giữa cả hai, vừa học quản lý thời gian, dựng prototype và tận dụng thời gian ngắn để học cách đọc paper nhanh và hiệu quả. Tiện thể các bạn sẽ được luyện cơ tay chạy nốt paper trước deadline hội nghị. Các bạn cũng có thể coi đủ chiến lược thi MCM của University of Colorado at Boulder [2].
+
+# 2023: Wordle - An analysis of the game’s variation in results in different days
+
+Đây là năm đầu tiên mình thi MCM/ICM, theo đại diện tố chức là Toán Mô Hình Hà Nội. Background của đội là CS nên cứ đơn giản chọn MCM Problem C là dễ nhất. 
+
+Câu chuyện đề bài được đặt quanh Wordle và yêu cầu thí sinh trả lời 3 vấn đề [3]:
+
+- Dự đoán phần trăm số người thắng trong ngày và liệu từ của ngày đó và Hard Mode có ảnh hướng số người chơi? Giải thích variation và dự đoán tỉ lệ thắng vào 1/3/2023.
+- Dự đoán phân bố người thắng với 1, 2, 3, 4, 5, 6 lượt đoán, hoặc thua, và giải thích phân bố cho từ EERIE vào 1/3/2023.
+- Thiết kế mô hình để phân loại từ theo độ khó, và nhận diện những tính chất của từ dẫn đến phân loại độ khó nó. Từ đó, hãy phân loại và giải thích độ khó của từ EERIE.
+
+Tụi mình chưa ai viết paper cả, và lúc này HK2 năm 2 chưa bắt đầu nên còn chưa kịp học Technical Writing. Tụi mình cũng khá non nên lựa chọn mô hình sơ khai, dễ dùng. Không bất ngờ khi bài này không đạt giải.
+
+Abstract gốc của bài quá dài nên mình sẽ trích dịch và tóm tắt: 
+
+- Chúng mình dùng SARIMA để dự đoán số người chơi, polynomial regression và RMSE để dự doán tỉ lệ thắng.
+- Phân tích từ EERIE, chúng minh quy ước 4 metrics:  letter frequency, word frequency, letter repetition, vowel repetition. Những đặc trưng này được dùng cho tất cả bộ từ và dùng KNN lấy phân bố trung bình giữa K từ tương tự. Chúng mình dùng Elbow Method để tìm số K phù hợp nhất.
+- Chúng mình dùng phân bố lượt đoán để làm đặc trưng và dùng K-Means để phân cụm các từ chung độ khó với nhau. Dựa vào 4 metrics trên, chúng ta sắp xếp độ khó của từng cụm từ 0 (dễ nhất) đến 4 (khó nhất). Dùng lại mô hình trước và chọn độ khó phổ biến nhất, ta tìm được EERIE có độ khó bằng 3.
+
+Keywords: Wordle, SARIMA model, K-means clustering technique, K nearest neighbors 
+
+![tsne.png](/images/posts/mcm_icm/tsne.png)
+
+Nếu mình làm lại bài: Mình sẽ tận dùng Hamming Distance giữa các từ để dựng đồ thị trên bộ từ Wordle, rồi phân cụm bằng Spectral Clustering. Nên giải quyết bài 2 trước khi đánh giá tính chất từ cho bài 1.
+
+# 2024: Unlocking Tennis Dynamics: Analyzing Momentum, Predicting Swings and Beyond
+
+Làm lại cuộc đời, tụi mình quay lại với MCM Problem C. Cũng là đội thi năm ngoái nhưng thay 1 người. Mình mới mò được Deep Learning nên lại ham đao to búa lớn. 
+
+Cho thông tin về bộ môn tennis và luật của 1 trận Wimbledon Gentlemen, đội thi cần giải quyết những vấn đề sau [4]:
+
+- Mô hình hóa 1 trận tennis dựa vào lịch sử điểm. Chỉ ra người chơi nào đang có ưu thế và và cách xa người chơi còn lại bao nhiêu vào bất kỳ thời điểm nào trong trận.
+- Liệu “mô-men” có vai trò trong việc phân tích “swings in play” (lúc thắng lúc thua) và “runs of success” (chuỗi thắng liên tục)
+- Dự đoán “change in flow of play” (lật thế) thay đổi từ người chơi nay sang người chơi khác trong trận đấu. Hãy khuyên người chơi nên làm gì cho trận tiếp theo dựa vào lịch sử điểm đầu trận.
+- Tổng quát kết quả này cho Ladies’ matches, các giải đấu khác, và các bộ môn khác như bóng bàn.
+
+Trích dịch và tóm tắt abstract bài [6]: 
+
+- Chúng mình cải tiến Markov Chain cho bộ môn Tennis để phù hợp cho Wimbledon và sử dụng Bradley-Terry để đánh giá “ưu thế” của người chơi. Trên dự liệu trận của năm 2023, mô hình dự đoán được kết quả trước khi hết trận với độ chính xác 77.32% và chỉ ra được các điểm “lật thế” trong một trận.
+- Chúng mình tìm ra mối quan hệ giữa mô-men và phong độ, và dùng LSTM, GRU, RNN để mô hình hóa mô-men.
+
+Keywords: Tennis, Wimbledon, Momentum, Markov chain, Stochastic Processes, Bradley-Terry, LSTM, GRU, RNN
+
+Nếu làm lại bài này: Đã dùng Bradley-Terry thì dùng luôn Elo và literature review tiếp về Elo in Tennis. Có thể không dùng Deep Learning cho bài này, tìm kỹ hơn cách mô hình hóa bằng stochastic processes.
+
+![Markov Chain](/images/posts/mcm_icm/markov.png)
+
+# 2025: Geo-Contextual Embeddings and Label Propagation for Commuting Flow Prediction
+
+Sau 2 năm thất bại, mình kiên quyết cơ hội cuối để đạt giải. Trường mở chọn đội tuyển và mình cũng may mắn đậu được. Đây là năm đầu tiên đi thi theo tổ chức đại diện là HCMUS, thi với 2 bạn K21 CNTN Toán. Ban đầu chọn MCM Problem C, nhưng tụi mình nhận ra bài lần này “mở” hơn và không đủ sức để tự nghĩ ra bài đủ phức tạp để đạt giải. Mình cuối cùng thuyết phục đội thử ICM Problem D, vì lúc này mình đã có nhiều kinh nghiệm hơn với lý thuyết đồ thị và GNN. 
+
+Bài toán của ICM 2025 Problem D như sau [5]:
+
+Thành phố Baltimore vừa có cầu Francis Scott Key bị sập và gây mất trật tự cho giao thông thành phố,. Những vấn đề vốn có về phương tiện công cộng và cơ sở vật chất của thành phố lại tiếp tục ảnh hưởng đến người dân. Hãy phân tích và cải thiện hệ thống giao thông của thành phố Baltimore qua 3 vấn đề sau, đồng thời tìm cách giải quyết và gợi ý cho Thị trưởng cần làm gì để cải thiện sự an toàn cho thành phố Baltimore:
+
+- Đánh giá sự ảnh hướng của cầu Francis Scott Key bị sập lên mô hình giao thông và các bên liên quan khác
+- Đánh giá và tối ưu hệ thống giao thông công cộng
+- Thiết kế và gợi ý các dự án có thể thêm để cải thiện đời sống người dân, đồng thời đánh giá sự ảnh hưởng lên các bên liên quan. Viết tâm thư cho thị trưởng về các dự án này.
+
+Trích dịch và tóm tắt abstract bài [7]: Chúng mình kết hợp EMA để dự đoán traffic flow và Geo-contextual Multitask Embedding Learning (bản chất 2 đầu GAT encoder và 1 LightGBM regression head) để dự đoán các điểm có lưu thông cao và chọn điểm dựng trạm xe buýt, xong rồi tìm đường đi bằng việc giải bài toán tối ưu xấp xỉ TSP.
+
+Keywords: Transportation Network Analysis, Graph Attention Networks, Geo-contextual Embedding, Traffic Flow Prediction, Urban Transit Optimization, Label Propagation, Exponential Moving Average, Public Safety, Multi-task Learning, Route Planning, Baltimore Infrastructure, Graph Neural Networks, Transportation Equity, Bus Route Optimization, Traveling Salesman Problem.
+
+Mình khá hài lòng với bài làm này trong 5 ngày, mình chỉ tiếc code implementation chưa kỹ và thiết kế visualization chưa đẹp thôi.
+
+![Baltimore Bus Routes](/images/posts/mcm_icm/baltimore.png)
+
+# Outro
+
+Học làm mô hình hóa toán sẽ giúp bạn mất niềm tin hơn vào đời sống và tự hỏi tại sao những lựa chọn “đơn giản” thế mà không ai chịu lảm. Thay vì đợi họ thì mình hãy viết tâm thư và gợi ý cách thiết kế, hoặc tìm cách chơi prediction market tốt hơn bằng mô hình của riêng mình.
+
+# Reference:
+
+[1] COMAP - [https://www.contest.comap.com/undergraduate/contests/](https://www.contest.comap.com/undergraduate/contests/)
+
+[2] MCM Guide - [https://sites.pitt.edu/~jonrubin/mcm_guide_colorado.pdf](https://sites.pitt.edu/~jonrubin/mcm_guide_colorado.pdf)
+
+[3] Đề thi MCM/ICM 2023: [https://www.contest.comap.com/undergraduate/contests/mcm/contests/2023/problems/](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2023/problems/)
+
+[4] Đề thi MCM/ICM 2024: [https://www.contest.comap.com/undergraduate/contests/mcm/contests/2024/problems/](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2024/problems/)
+
+[5] Đề thi MCM/ICM 2025: [https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/)
+
+[6] Bài làm MCM 2024: [https://drive.google.com/file/d/1IJlT7H6YRhYjPTklHBUCgcnVtFJ1cdCP/view](https://drive.google.com/file/d/1IJlT7H6YRhYjPTklHBUCgcnVtFJ1cdCP/view)
+
+[7] Bài làm ICM 2025: [https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view](https://drive.google.com/file/d/1E-fmgF63bEzXJoEiSMkhZu57MrxEXRUs/view)
+
+![brainmade.org](https://brainmade.org/88x31-light.png)
